@@ -161,7 +161,7 @@ function writeToFile(results) {
           json: "OrenthJson",
           abbreviation: "ORE",
           full: "Orenth",
-          authors: ["Yannik"],
+          authors: ["Yannick"],
           convertedBy: ["Eli"],
           version: "1.0.0",
           url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
