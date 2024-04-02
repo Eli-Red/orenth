@@ -3353,9 +3353,732 @@
             "source": "IngensOrenthJson"
         },
         {
+            "name": "Harvest of the Land",
+            "entries": [
+                "When performing the Foraging travelling activity and you find enough food for your party, you can give your party an additional benefit in addition to a full stomach. Anyone that eats from the food you find may add your Wisdom modifier to one of the hit dice they roll to regain hitpoints. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Amethyst Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled transmutation spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Crystal Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled divination spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Jade Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled enchantment spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Emerald Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled illusion spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Sapphire Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled abjuration spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Topaz Recovery",
+            "entries": [
+                "Once per long rest when you cast a levelled necromancy spell you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Absorbant Recovery",
+            "entries": [
+                "Once per short rest when you take damage that you are resistant to you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Defensive",
+                "Rest"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Pious Recovery",
+            "entries": [
+                "Once per long rest when you gain piety you may also regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Piety"
+            ],
+            "source": "MetallicOrenthJson"
+        },
+        {
+            "name": "Life Absorption",
+            "entries": [
+                "Once per long rest when you reduce a creature to 0 hit points with a spell you cast, you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "CosmicOrenthJson"
+        },
+        {
+            "name": "Trans Recovery",
+            "entries": [
+                "Once per long rest when you may spend 8 hours trancing during a short rest and regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "The Trance Trait"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Racial",
+                "Prereq",
+                "Rest"
+            ],
+            "source": "FeyOrenthJson"
+        },
+        {
+            "name": "Unlucky Recovery",
+            "entries": [
+                "Once per long rest when you roll a natural 1 on a d20 check you may regain a first level spellslot."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "No Energy Wasted",
+            "entries": [
+                "Once per long rest when a creature succeeds on a saving throw against a spell you cast resulting in nothing happening, you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Recovery in a Moment of Peace",
+            "entries": [
+                "Once per long rest when you get grappled, restrained, stunned, exhausted, charmed, frightened, slowed, dazed or paralyzed against your will you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Defensive",
+                "Rest"
+            ],
+            "source": "MetallicOrenthJson"
+        },
+        {
+            "name": "Mind and Body Recovery",
+            "entries": [
+                "Once per long rest when you regain hit points from a levelled spell you also regain a first level spell. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Defensive",
+                "Rest"
+            ],
+            "source": "MetallicOrenthJson"
+        },
+        {
+            "name": "Feywild Recovery",
+            "entries": [
+                "Once per long rest when you teleport you may regain a first level spellslot."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Movement"
+            ],
+            "source": "FeyOrenthJson"
+        },
+        {
+            "name": "Recovery from beyond the Grave",
+            "entries": [
+                "Once per short rest when you are reduced to 0 hit points you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Defensive",
+                "Rest"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Gish Recovery",
+            "entries": [
+                "Once per long rest when you crit with a weapon attack you regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Mastery",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Tinkerer's Recovery",
+            "entries": [
+                "Over the course of a long rest your may imbue an item with the arcane energy. Before you next long rest you may unleash the energy inside the item as a bonus action to regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Proficiency with Tinkerer's tools"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Prereq",
+                "Rest"
+            ],
+            "source": "FeyOrenthJson"
+        },
+        {
+            "name": "Ritual Recovery",
+            "entries": [
+                "Once per long rest you may perform a 10 minute ritual to enhance your power. At the end of the ritual one of your first level spellslots becomes one level higher. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Ritual Spellcasting"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Prereq",
+                "Rest"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Recovery of the Breath",
+            "entries": [
+                "Once per long rest when you use your Breath Weapon you may regain a first level spellslot. The orenth type of this trait depends on the type of dragonborn you are. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Dragonborn"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Racial",
+                "Prereq",
+                "Rest"
+            ],
+            "source": "OtherOrenthJson"
+        },
+        {
+            "name": "Mind over Body Recovery",
+            "entries": [
+                "During a long rest when you regain hitpoints from rolling hit dice you may refrain from adding your constitution modifier to the roll and regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Extraplanar Recovery",
+            "entries": [
+                "Once per short rest when you or a party member reduces an abberation, fiend or fey to 0 hit points you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "MetallicOrenthJson"
+        },
+        {
+            "name": "Lunar Recovery",
+            "entries": [
+                "Once per short rest when you or a party member reduce an elemental, undead, celestial or dragon to 0 hit points you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "CosmicOrenthJson"
+        },
+        {
+            "name": "Recovery from Nature",
+            "entries": [
+                "Once per short rest when you or a party member reduce a plant, beast or ooze to 0 hit points you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Murderous Recovery",
+            "entries": [
+                "Once per short rest when you or a party member reduce a humanoid or giant to 0 hit points, you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Offensive",
+                "Rest"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Alchemical Recovery",
+            "entries": [
+                "Once per long rest when you consume a potion you may also regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Defensive",
+                "Rest"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Wilderness Recovery",
+            "entries": [
+                "Once per long rest while travelling you may forgo choosing a travelling activity and instead spend the day focusing on your arcane energy, regaining a first level spellslot at the end of the day. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Exploration"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Overcharged Recovery",
+            "entries": [
+                "Once per long rest when you upcast a spell you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
+            ],
+            "source": "CosmicOrenthJson"
+        },
+        {
+            "name": "Ancestral Recovery",
+            "entries": [
+                "Once per long rest when you cast a racial or orenth spell you may regain a first level spellslot. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 1,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Racial",
+                "Rest",
+                "Meta"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
             "name": "Chaos Breath",
             "entries": [
-                "Your Breath Weapon trait is replaced with the following trait:\r\nWhen you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 4 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\r\nYou can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
+                "Your Breath Weapon trait is replaced with the following trait:\nWhen you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 4 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\nYou can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
             ],
             "prerequisite": [
                 {
@@ -3674,7 +4397,7 @@
                         }
                     },
                     "item": [
-                        "Warrior of Spores\r\nTier 1 Fey Trait"
+                        "Warrior of Spores\nTier 1 Fey Trait"
                     ]
                 }
             ],
@@ -4423,7 +5146,7 @@
                         }
                     },
                     "item": [
-                        "5th Level\r\nChromatic Dragonborn"
+                        "5th Level\nChromatic Dragonborn"
                     ]
                 }
             ],
@@ -4465,7 +5188,7 @@
         {
             "name": "Spell Defyance",
             "entries": [
-                "Your connection to your Orenth has granted you a greater resistance to magic.\r\nYou gain advantage on saving throws against spells you currently have prepared and resistance against spells you currently have prepared. "
+                "Your connection to your Orenth has granted you a greater resistance to magic.\nYou gain advantage on saving throws against spells you currently have prepared and resistance against spells you currently have prepared. "
             ],
             "prerequisite": [
                 {
@@ -5068,7 +5791,7 @@
         {
             "name": "Momentum Calculation",
             "entries": [
-                "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.\r\nAny smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.\r\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+                "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.\nAny smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
             ],
             "prerequisite": [
                 {
@@ -5116,7 +5839,7 @@
         {
             "name": "Singularity Breath",
             "entries": [
-                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r\nEach creature that failed their saving throw has their speed reduced to 0 until the start of your next turn."
+                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that failed their saving throw has their speed reduced to 0 until the start of your next turn."
             ],
             "prerequisite": [
                 {
@@ -5262,7 +5985,7 @@
         {
             "name": "Crystal Rest",
             "entries": [
-                "Being prepared is important, definitely when you’re trying to rest. When you start taking a short rest, the DM chooses an omen to send you.\r\nPositive:. Something positive is likely to happen during your rest.\r\nNegative: Something negative is likely to happen during your rest.\r\nNeutral: Nothing necessarily positive or negative is likely to happen during your rest. \r\nUncertain: Something is likely to happen during your rest, but the outcome of the situation can turn out either positive or negative. "
+                "Being prepared is important, definitely when you’re trying to rest. When you start taking a short rest, the DM chooses an omen to send you.\nPositive:. Something positive is likely to happen during your rest.\nNegative: Something negative is likely to happen during your rest.\nNeutral: Nothing necessarily positive or negative is likely to happen during your rest. \nUncertain: Something is likely to happen during your rest, but the outcome of the situation can turn out either positive or negative. "
             ],
             "prerequisite": [
                 {
@@ -5335,7 +6058,7 @@
         {
             "name": "Disorienting Breath",
             "entries": [
-                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r\nEach creature that fails their saving throw is forced to subtract 1d6 from all their attack rolls and ability checks until the end of their next turn."
+                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that fails their saving throw is forced to subtract 1d6 from all their attack rolls and ability checks until the end of their next turn."
             ],
             "prerequisite": [
                 {
@@ -5389,7 +6112,7 @@
         {
             "name": "Unseen Step ",
             "entries": [
-                "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.\r\nYou may use this ability once per short rest."
+                "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.\nYou may use this ability once per short rest."
             ],
             "prerequisite": [
                 {
@@ -5438,7 +6161,7 @@
         {
             "name": "Euphoria Breath",
             "entries": [
-                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:\r\n1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.\r\n5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success\r\nYou may use this ability once per long rest. "
+                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:\n1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.\n5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success\nYou may use this ability once per long rest. "
             ],
             "prerequisite": [
                 {
@@ -5449,7 +6172,7 @@
                         }
                     },
                     "item": [
-                        "Jade Dragonborn\r\nTier 1 Fey Trait"
+                        "Jade Dragonborn\nTier 1 Fey Trait"
                     ]
                 }
             ],
@@ -5494,7 +6217,7 @@
         {
             "name": "Beguiling Breath",
             "entries": [
-                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.\r\nYou may use this ability once per long rest."
+                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.\nYou may use this ability once per long rest."
             ],
             "prerequisite": [
                 {
@@ -5749,7 +6472,7 @@
         {
             "name": "Debilitating Breath",
             "entries": [
-                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.\r\nYou may use this ability once per long rest."
+                "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.\nYou may use this ability once per long rest."
             ],
             "prerequisite": [
                 {
@@ -5775,7 +6498,7 @@
         {
             "name": "Physical Prowess Estimation",
             "entries": [
-                "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.\r\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+                "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
             ],
             "prerequisite": [
                 {
@@ -5850,7 +6573,7 @@
         {
             "name": "Can't be outmatched",
             "entries": [
-                "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: \r\nStrength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. \r\nArmor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. \r\nNumber of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. \r\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+                "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: \nStrength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. \nArmor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. \nNumber of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. \nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
             ],
             "prerequisite": [
                 {
@@ -5896,7 +6619,7 @@
         {
             "name": "Desiccating Breath",
             "entries": [
-                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r\nEach creature that fails its saving throw is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage."
+                "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that fails its saving throw is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage."
             ],
             "prerequisite": [
                 {
@@ -6011,7 +6734,7 @@
                         }
                     },
                     "item": [
-                        "5th Level\r\nGem Dragonborn"
+                        "5th Level\nGem Dragonborn"
                     ]
                 }
             ],
@@ -6037,7 +6760,7 @@
                         }
                     },
                     "item": [
-                        "5th Level\r\nGem Dragonborn"
+                        "5th Level\nGem Dragonborn"
                     ]
                 }
             ],
@@ -6078,7 +6801,7 @@
         {
             "name": "Infused Gem Lair",
             "entries": [
-                "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: \r\n\r\nAmethyst: You gain a flying speed equal to your walking speed and you can hover.\r\nSapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.\r\nEmerald: You constantly sense magic around you, as per the Detect Magic spell.\r\nTopaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).\r\nCrystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.\r\nJade: You can become invisible as an action. Your invisibility ends when you use the Attack or Magic action."
+                "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: \n\nAmethyst: You gain a flying speed equal to your walking speed and you can hover.\nSapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.\nEmerald: You constantly sense magic around you, as per the Detect Magic spell.\nTopaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).\nCrystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.\nJade: You can become invisible as an action. Your invisibility ends when you use the Attack or Magic action."
             ],
             "prerequisite": [
                 {
@@ -6404,7 +7127,7 @@
         {
             "name": "Strangle",
             "entries": [
-                "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.\r\nCreatures that you cannot grapple or do not need to breathe are unaffected.\r\nIf a creature has a Breath weapon or similar damage dealing ability, the amount of dice its breath weapon deals goes down by one whenever it starts its turn being strangled. Its breath weapon goes back to normal when it is no longer being strangled. "
+                "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.\nCreatures that you cannot grapple or do not need to breathe are unaffected.\nIf a creature has a Breath weapon or similar damage dealing ability, the amount of dice its breath weapon deals goes down by one whenever it starts its turn being strangled. Its breath weapon goes back to normal when it is no longer being strangled. "
             ],
             "prerequisite": [
                 {
@@ -6460,7 +7183,7 @@
         {
             "name": "Cleave",
             "entries": [
-                "Choose a melee weapon you have proficiency with that has the heavy property. \r\nIf you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
+                "Choose a melee weapon you have proficiency with that has the heavy property. \nIf you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
             ],
             "prerequisite": [
                 {
@@ -6646,7 +7369,7 @@
                         }
                     },
                     "item": [
-                        "Flexible Mastery Orenth Trait"
+                        "Applicable Weapon Mastery Orenth Trait"
                     ]
                 }
             ],
@@ -7323,30 +8046,6 @@
             "source": "MetallicOrenthJson"
         },
         {
-            "name": "Focused Healing",
-            "entries": [
-                "As a reaction to an ability that restores hit points being cast within 60 feet of you, you may make a Charisma (Medicine) check (DC=10+twice the amount of dice that would be healed). On a success you can heal the maximum amount of each die instead of rolling. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 2,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    }
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Silver",
-                "Spellcasting",
-                "Offensive",
-                "Skill"
-            ],
-            "source": "MetallicOrenthJson"
-        },
-        {
             "name": "Chaos Rest",
             "entries": [
                 "Whenever you take a short rest, roll thrice on the Choas Rest table. Each of the regional effects occur around you while you rest. "
@@ -7454,7 +8153,7 @@
         {
             "name": "Chromatic Snack Summoner",
             "entries": [
-                "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the Snack Summon table\r\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \r\nYou may also cast the spell in the regular way with any spell slots you have yourself."
+                "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the Snack Summon table\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
             ],
             "prerequisite": [
                 {
@@ -8164,7 +8863,7 @@
                         }
                     },
                     "item": [
-                        "Hobgoblin\r\nExclusive"
+                        "Hobgoblin\nExclusive"
                     ]
                 }
             ],
@@ -8596,7 +9295,7 @@
         {
             "name": "Gem Snack Summoner",
             "entries": [
-                "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the Snack Summon table\r\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \r\nYou may also cast the spell in the regular way with any spell slots you have yourself."
+                "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the Snack Summon table\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
             ],
             "prerequisite": [
                 {
@@ -8967,7 +9666,7 @@
         {
             "name": "Nick",
             "entries": [
-                "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn. \r\nIf you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. "
+                "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn. \nIf you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. "
             ],
             "prerequisite": [
                 {
@@ -9839,243 +10538,53 @@
             "source": "IngensOrenthJson"
         },
         {
-            "name": "Animating Breaths",
+            "name": "Golden Recovery",
             "entries": [
-                "Instead of using your Breath Weapon, you may instead spend 4 uses of it to summon an Animated Breath (FTD) related to your Chromatic ancestry. The Animated Breath is under your control and you can command it (no action required). It remains for 10 minutes. "
+                "During a short rest you may consume goldpieces to recover a spellslot. The spellslot level is equal to the amount of gold a spellscroll of that level would cost, to a maximum of 5. "
             ],
             "prerequisite": [
                 {
                     "level": {
-                        "level": 5,
+                        "level": 3,
                         "class": {
                             "name": "Tier"
                         }
-                    },
-                    "item": [
-                        "Chromatic Dragonborn"
-                    ]
+                    }
                 }
             ],
             "featureType": [
                 "ORE",
-                "Chaos",
-                "Exploration"
-            ],
-            "source": "ChromaticOrenthJson"
-        },
-        {
-            "name": "Ruthless Fire",
-            "entries": [
-                "You gain the benefits of the Graze Orenth trait. Additionally, before you attack a creature you may reduce your hit bonus by a value of your choosing. If you hit you deal twice this value in fire damage to the target. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Exclusive"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Weapon Mastery",
+                "Spell Recovery",
                 "Martial",
-                "Mastery",
-                "Offensive",
-                "Exclusive"
-            ],
-            "source": "ChromaticOrenthJson"
-        },
-        {
-            "name": "Master Fey Steps",
-            "entries": [
-                "You have mastered your Fey Steps Feature. You get a teleport speed equal to your walking speed. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Expert Fey Steps"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Prereq",
-                "Movement"
-            ],
-            "source": "FeyOrenthJson"
-        },
-        {
-            "name": "Advanced Photosynthesis",
-            "entries": [
-                "Your Photosynthesis Trait functions whenever you are in bright light. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Photosynthesis Trait"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Defensive",
-                "Prereq"
-            ],
-            "source": "FeyOrenthJson"
-        },
-        {
-            "name": "Slowed Time Strikes",
-            "entries": [
-                "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Dazed condition.  "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Exclusive"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Weapon Mastery",
-                "Martial",
-                "Mastery",
-                "Offensive",
-                "Exclusive"
-            ],
-            "source": "GemOrenthJson"
-        },
-        {
-            "name": "Weapon Mastered: Vex",
-            "entries": [
-                "After you use your Vex Orenth Trait you can choose to make an additional attack against them instead of gaining advantage. You may do so once per turn. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Vex Orenth Trait"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Weapon Mastery",
-                "Martial",
-                "Mastery",
-                "Offensive",
-                "Exclusive"
-            ],
-            "source": "IngensOrenthJson"
-        },
-        {
-            "name": "Dragon Turtle Speed",
-            "entries": [
-                "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Slowed condition.  "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Exclusive"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Weapon Mastery",
-                "Martial",
-                "Mastery",
-                "Offensive",
-                "Exclusive"
-            ],
-            "source": "IngensOrenthJson"
-        },
-        {
-            "name": "Human Variety",
-            "entries": [
-                "The variety of humans leads to them being able to accomplish extraordinary feats. You gain a feat."
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Human"
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Racial"
-            ],
-            "source": "IngensOrenthJson"
-        },
-        {
-            "name": "School Mastered: Evocation",
-            "entries": [
-                "You may downcast any Evocation spell that can be upcast of 2nd level or higher. When you do so reduce the number of damage dice in the same pattern as it gets increased for higher level spellslots. "
-            ],
-            "prerequisite": [
-                {
-                    "level": {
-                        "level": 5,
-                        "class": {
-                            "name": "Tier"
-                        }
-                    },
-                    "item": [
-                        "Spell mastery with an Evocation school spell. "
-                    ]
-                }
-            ],
-            "featureType": [
-                "ORE",
-                "Spell Mastery",
                 "Spellcasting",
-                "Mastery",
-                "Offensive",
-                "Prereq"
+                "Flavour",
+                "Rest"
             ],
-            "source": "CosmicOrenthJson"
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Powerful Recovery",
+            "entries": [
+                "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a third level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Meta"
+            ],
+            "source": "OtherOrenthJson"
         },
         {
             "name": "Watery Dash",
@@ -10696,9 +11205,296 @@
             "source": "MetallicOrenthJson"
         },
         {
-            "name": "Harvest of the Land",
+            "name": "Formidable Recovery",
             "entries": [
-                "When performing the Foraging travelling activity and you find enough food for your party, you can give your party an additional benefit in addition to a full stomach. Anyone that eats from the food you find may add your Wisdom modifier to one of the hit dice they roll to regain hitpoints. "
+                "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a fourth level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 4,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Meta"
+            ],
+            "source": "OtherOrenthJson"
+        },
+        {
+            "name": "Animating Breaths",
+            "entries": [
+                "Instead of using your Breath Weapon, you may instead spend 4 uses of it to summon an Animated Breath (FTD) related to your Chromatic ancestry. The Animated Breath is under your control and you can command it (no action required). It remains for 10 minutes. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Chromatic Dragonborn"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Chaos",
+                "Exploration"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Ruthless Fire",
+            "entries": [
+                "You gain the benefits of the Graze Orenth trait. Additionally, before you attack a creature you may reduce your hit bonus by a value of your choosing. If you hit you deal twice this value in fire damage to the target. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Exclusive"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Weapon Mastery",
+                "Martial",
+                "Mastery",
+                "Offensive",
+                "Exclusive"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Master Fey Steps",
+            "entries": [
+                "You have mastered your Fey Steps Feature. You get a teleport speed equal to your walking speed. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Expert Fey Steps"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Prereq",
+                "Movement"
+            ],
+            "source": "FeyOrenthJson"
+        },
+        {
+            "name": "Advanced Photosynthesis",
+            "entries": [
+                "Your Photosynthesis Trait functions whenever you are in bright light. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Photosynthesis Trait"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Defensive",
+                "Prereq"
+            ],
+            "source": "FeyOrenthJson"
+        },
+        {
+            "name": "Slowed Time Strikes",
+            "entries": [
+                "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Dazed condition.  "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Exclusive"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Weapon Mastery",
+                "Martial",
+                "Mastery",
+                "Offensive",
+                "Exclusive"
+            ],
+            "source": "GemOrenthJson"
+        },
+        {
+            "name": "Weapon Mastered: Vex",
+            "entries": [
+                "After you use your Vex Orenth Trait you can choose to make an additional attack against them instead of gaining advantage. You may do so once per turn. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Vex Orenth Trait"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Weapon Mastery",
+                "Martial",
+                "Mastery",
+                "Offensive",
+                "Exclusive"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Dragon Turtle Speed",
+            "entries": [
+                "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Slowed condition.  "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Exclusive"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Weapon Mastery",
+                "Martial",
+                "Mastery",
+                "Offensive",
+                "Exclusive"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Human Variety",
+            "entries": [
+                "The variety of humans leads to them being able to accomplish extraordinary feats. You gain a feat."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Human"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Racial"
+            ],
+            "source": "IngensOrenthJson"
+        },
+        {
+            "name": "School Mastered: Evocation",
+            "entries": [
+                "You may downcast any Evocation spell that can be upcast of 2nd level or higher. When you do so reduce the number of damage dice in the same pattern as it gets increased for higher level spellslots. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Spell mastery with an Evocation school spell. "
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Mastery",
+                "Spellcasting",
+                "Mastery",
+                "Offensive",
+                "Prereq"
+            ],
+            "source": "CosmicOrenthJson"
+        },
+        {
+            "name": "Mighty Recovery",
+            "entries": [
+                "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a fith level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 5,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Meta"
+            ],
+            "source": "OtherOrenthJson"
+        },
+        {
+            "name": "Chaotic Recovery",
+            "entries": [
+                "Whenever you cast a first level spell roll 1d4. If you roll a 1 you do not expend a spellslot and you must roll on the wild magic table. "
             ],
             "prerequisite": [
                 {
@@ -10711,9 +11507,36 @@
                 }
             ],
             "featureType": [
-                "ORE"
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest"
             ],
-            "source": "IngensOrenthJson"
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Focused Healing",
+            "entries": [
+                "As a reaction to an ability that restores hit points being cast within 60 feet of you, you may make a Charisma (Medicine) check (DC=10+twice the amount of dice that would be healed). On a success you can heal the maximum amount of each die instead of rolling. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Silver",
+                "Spellcasting",
+                "Offensive",
+                "Skill"
+            ],
+            "source": "MetallicOrenthJson"
         },
         {
             "name": "Silver Rest",
@@ -11174,7 +11997,7 @@
         {
             "name": "Handfasting",
             "entries": [
-                "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: \r\nYour maximum hp increased by your partners level. \r\nYou gain advantage on Wisdom saving throws. \r\nYou can add 1d4 to any Wisdom, Intelligence or Charisma ability check made while the other person is within 10 feet of you. "
+                "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: \nYour maximum hp increased by your partners level. \nYou gain advantage on Wisdom saving throws. \nYou can add 1d4 to any Wisdom, Intelligence or Charisma ability check made while the other person is within 10 feet of you. "
             ],
             "prerequisite": [
                 {
@@ -11210,6 +12033,81 @@
                 "ORE"
             ],
             "source": "IngensOrenthJson"
+        },
+        {
+            "name": "Focused Breath",
+            "entries": [
+                "You have learned to focus your breath into a single deadly burst. You may spend multiple uses of your breath weapon at once. Any creature hit by this combined breath must make a single saving throw and takes the damage of all breaths combined on a failure, or half on a success. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    },
+                    "item": [
+                        "Dragonborn"
+                    ]
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Skill",
+                "Exclusive",
+                "Exploration"
+            ],
+            "source": "ChromaticOrenthJson"
+        },
+        {
+            "name": "Arcane Flexibility",
+            "entries": [
+                "Over the course of a long rest you may change one of your Orenth traits with the Spell Mastery or Spell Recovery subtype to another trait with this subtype. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Martial",
+                "Spellcasting",
+                "Mastery",
+                "Rest",
+                "Meta"
+            ],
+            "source": "CosmicOrenthJson"
+        },
+        {
+            "name": "Potent Recovery",
+            "entries": [
+                "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a second level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose. You cannot choose the same tier 1 trait in this way twice. "
+            ],
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 2,
+                        "class": {
+                            "name": "Tier"
+                        }
+                    }
+                }
+            ],
+            "featureType": [
+                "ORE",
+                "Spell Recovery",
+                "Spellcasting",
+                "Rest",
+                "Meta"
+            ],
+            "source": "OtherOrenthJson"
         },
         {
             "name": "Quick Rebuttal",
