@@ -2,17 +2,16 @@ const csv = require("csv-parser");
 const fs = require("fs");
 const orenthTypes = [
   // Orenth Types
-  { abr:"Gem", color: "ff0051" },
-  { abr:"Chromatic", color: "275c01"},
-  { abr:"Metallic", color: "dbdbd5"},
-  { abr:"Fey", color: "59ff00" },
-  { abr:"Ingens", color: "5e3602"},
-  { abr:"Cosmic", color: "0c0075" },
-  {abr:"Other", color: "ffffff" }
+  { abr: "Gem", color: "d902a0" },
+  { abr: "Chromatic", color: "cc1606" },
+  { abr: "Metallic", color: "d4af0b" },
+  { abr: "Fey", color: "4bcc06" },
+  { abr: "Ingens", color: "00bd97" },
+  { abr: "Cosmic", color: "0077ff" },
+  { abr: "Other", color: "dedede" },
 ];
 
 const allFeatureTypes = [
-
   // Sub Types
   "Emerald",
   "Crystal",
@@ -112,7 +111,7 @@ function convert(result, filename) {
   }
 
   optFeature.featureType = ["ORE"];
-  optFeature.source = result.Type;
+  optFeature.source = `${result.Type}OrenthJson`;
   if (result.Subtype) {
     optFeature.featureType.push(result.Subtype);
   }
@@ -153,22 +152,22 @@ function readFiles() {
 function createSources() {
   var sources = [];
 
-  for(const type of orenthTypes) {
+  for (const type of orenthTypes) {
     var source = {
-        json: `${type.abr}OrenthJson`,
-        abbreviation: type.abr,
-        full: `${type.abr} Orenth`,
-        authors: ["Yannick"],
-        convertedBy: ["Eli"],
-        version: "1.0.0",
-        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        color: type.color,
+      json: `${type.abr}OrenthJson`,
+      abbreviation: type.abr,
+      full: `${type.abr} Orenth`,
+      authors: ["Yannick"],
+      convertedBy: ["Eli"],
+      version: "1.0.0",
+      url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      color: type.color,
     };
 
     sources.push(source);
   }
 
-  return sources
+  return sources;
 }
 
 function writeToFile(results) {
@@ -189,7 +188,7 @@ function writeToFile(results) {
 
   fs.writeFile(
     "json/Yannick; Orenth.json",
-    JSON.stringify(homebrew),
+    JSON.stringify(homebrew, null, 4),
     (error) => {
       if (error) throw error;
     }
