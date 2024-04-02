@@ -1,14 +1,17 @@
 const csv = require("csv-parser");
 const fs = require("fs");
+const orenthTypes = [
+  // Orenth Types
+  { abr:"Gem", color: "ff0051" },
+  { abr:"Chromatic", color: "275c01"},
+  { abr:"Metallic", color: "dbdbd5"},
+  { abr:"Fey", color: "59ff00" },
+  { abr:"Ingens", color: "5e3602"},
+  { abr:"Cosmic", color: "0c0075" },
+  {abr:"Other", color: "ffffff" }
+];
+
 const allFeatureTypes = [
-  // Types
-  "Gem",
-  "Chromatic",
-  "Metallic",
-  "Fey",
-  "Ingens",
-  "Cosmic",
-  "Other",
 
   // Sub Types
   "Emerald",
@@ -86,7 +89,6 @@ function addTagIfPresent(result) {
 function convert(result, filename) {
   var optFeature = {};
 
-  optFeature.source = "ORE";
   optFeature.name = result.Name;
   optFeature.entries = [result.Description];
 
@@ -110,7 +112,7 @@ function convert(result, filename) {
   }
 
   optFeature.featureType = ["ORE"];
-  optFeature.featureType.push(result.Type);
+  optFeature.source = result.Type;
   if (result.Subtype) {
     optFeature.featureType.push(result.Subtype);
   }
@@ -148,25 +150,38 @@ function readFiles() {
   });
 }
 
+function createSources() {
+  var sources = [];
+
+  for(const type of orenthTypes) {
+    var source = {
+        json: `${type.abr}OrenthJson`,
+        abbreviation: type.abr,
+        full: `${type.abr} Orenth`,
+        authors: ["Yannick"],
+        convertedBy: ["Eli"],
+        version: "1.0.0",
+        url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        color: type.color,
+    };
+
+    sources.push(source);
+  }
+
+  return sources
+}
+
 function writeToFile(results) {
   var optionalFeatureTypes = { ORE: "Orenth" };
   for (const type of allFeatureTypes) {
     featureType(optionalFeatureTypes, type);
   }
 
+  var sources = createSources();
+
   var homebrew = {
     _meta: {
-      sources: [
-        {
-          json: "OrenthJson",
-          abbreviation: "ORE",
-          full: "Orenth",
-          authors: ["Yannick"],
-          convertedBy: ["Eli"],
-          version: "1.0.0",
-          url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        },
-      ],
+      sources,
       optionalFeatureTypes,
     },
     optionalfeature: results,
