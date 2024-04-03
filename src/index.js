@@ -111,7 +111,7 @@ function convert(result, filename) {
   }
 
   optFeature.featureType = ["ORE"];
-  optFeature.source = `${result.Type}OrenthJson`;
+  optFeature.source = `${result.Type}Orenth`;
   if (result.Subtype) {
     optFeature.featureType.push(result.Subtype);
   }
@@ -154,7 +154,7 @@ function createSources() {
 
   for (const type of orenthTypes) {
     var source = {
-      json: `${type.abr}OrenthJson`,
+      json: `${type.abr}Orenth`,
       abbreviation: type.abr,
       full: `${type.abr} Orenth`,
       authors: ["Yannick"],
@@ -188,7 +188,7 @@ function writeToFile(results) {
 
   fs.writeFile(
     "json/Yannick; Orenth.json",
-    JSON.stringify(homebrew, null, 4),
+    JSON.stringify(homebrew, null, 2),
     (error) => {
       if (error) throw error;
     }
