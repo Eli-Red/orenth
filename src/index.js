@@ -105,7 +105,7 @@ function convert(result, filename) {
   }
 
   if (result.Prerequisite) {
-    optFeature.prerequisite = [{ level, item: [result.Prerequisite] }];
+    optFeature.prerequisite = [{ level, feature: [result.Prerequisite] }];
   } else {
     optFeature.prerequisite = [{ level }];
   }
