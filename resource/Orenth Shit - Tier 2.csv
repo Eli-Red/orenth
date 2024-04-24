@@ -134,7 +134,7 @@ Extended Gem Flight,Gem,,"5th Level
 Gem Dragonborn",You may now use your Gem Flight ability twice per long rest.,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,
 Dragon Wings,Gem,,"5th Level
 Gem Dragonborn",Your flying speed while using Gem Flight increases by 30 feet.,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,
-Dragon Tortle,Gem,,{@optfeature Gem Shell Resilience|gemorenth},"You gain the Breath Weapon feature from the Gem Dragonborn, but you may only use it a number of times equal to half your proficiency bonus rounded up. The damage type used is the same as the one you picked for Gem Shell Resilience. You also count as this type of dragonborn for the purpose of choosing Orenth traits. ",,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,
+Dragon Tortle,Gem,,{@optfeature Gem Shell Defense|gemorenth},"You gain the Breath Weapon feature from the Gem Dragonborn, but you may only use it a number of times equal to half your proficiency bonus rounded up. The damage type used is the same as the one you picked for Gem Shell Resilience. You also count as this type of dragonborn for the purpose of choosing Orenth traits. ",,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,
 Infused Gem Lair,Gem,,Gem Kobold,"As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: 
 
 Amethyst: You gain a flying speed equal to your walking speed and you can hover.
