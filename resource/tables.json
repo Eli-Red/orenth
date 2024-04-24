@@ -1,4 +1,204 @@
 [
-    { "name": "hiya"},
-    { "name": "bya"}
+  {
+    "name": "Weird Magic Table",
+    "source": "OREOrenth",
+    "colLabels": ["d12", "Effect"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      ["1", "The spell lasts twice as long"],
+      [
+        "2",
+        "If the spell requires concentration it no longer does, if it didn't it now does."
+      ],
+      [
+        "3",
+        "The spell targets the caster instead. If the spell already targeted the caster it instead targets the creature closest to it."
+      ],
+      [
+        "4",
+        "The spell will only activate in 1d4 rounds at the start of the caster's turn."
+      ],
+      [
+        "5",
+        "The spell is cast using the spellcasters Strength as the spellcasting ability instead."
+      ],
+      [
+        "6",
+        "You gain the ability to cast the spell once within the next minute."
+      ],
+      [
+        "7",
+        "The target(s) of the spell get teleported 30 feet in a random direction."
+      ],
+      [
+        "8",
+        "The target(s) of the spell also regain hit points equal to the caster's spellcasting ability modifier."
+      ],
+      [
+        "9",
+        "The target(s) of the spell also take psychic damage equal to the caster's spellcasting ability modifier."
+      ],
+      [
+        "10",
+        "Any damage/healing dice that would be rolled during the casting of the spell get replaced by d4s"
+      ],
+      [
+        "11",
+        "Any d20s that would be rolled during the casting of the spell get replaced by 2d10."
+      ],
+      [
+        "12",
+        "The spell summons a random creature of the DMs choice with a CR equal to the spell level. It has a random alignment."
+      ]
+    ]
+  },
+  {
+    "name": "Snack Summon Table",
+    "source": "OREOrenth",
+    "colLabels": ["Type", "Creature"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      ["Amethyst", "Sky Beast (Seagull)"],
+      ["Sapphire", "Land Beast (Spider)"],
+      ["Emerald", "Land Beast (Lizard)"],
+      ["Topaz", "Water Beast (Squid)"],
+      ["Crystal", "Land Beast (Earth Elemental)"],
+      ["Jade", "Sky Beast (Dragonfly)"],
+      ["Red", "Land Beast (Goat)"],
+      ["Blue", "Land Beast (Camel)"],
+      ["Green", "Land Beast (Ape)"],
+      ["Black", "Water Beast (Crocodile)"],
+      ["White", "Land Beast (Wolves)"],
+      [
+        "Deep",
+        "(Requires a Tier 1 Fey Orenth Trait) You can cast the Summon Undead spell instead."
+      ]
+    ]
+  },
+  {
+    "name": "Improved Elemental Spellcasting",
+    "source": "OREOrenth",
+    "colLabels": ["Element", "Cantrip", "3rd Level", "5th Level"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      [
+        "Air",
+        "{@spell Gust|xge",
+        "{@spell Zephyr Strike |xge",
+        "{@spell Gust of Wind|phb"
+      ],
+      [
+        "Earth",
+        "{@spell Mold Earth|xge",
+        "{@spell Earth Tremor|xge",
+        "{@spell Maximillian's Earthen Grasp|xge"
+      ],
+      [
+        "Fire",
+        "{@spell Fire Bolt|phb",
+        "{@spell Hellish Rebuke|phb",
+        "{@spell Scorching Ray|phb"
+      ],
+      [
+        "Water",
+        "{@spell Shape Water|xge",
+        "{@spell Armor of Agathys|phb",
+        "{@spell Rime's Binding Ice|ftd"
+      ],
+      [
+        "Chaos",
+        "{@spell Thaumaturgy|phb",
+        "{@spell Chaos Bolt|xge",
+        "{@spell Dragon's Breath|xge"
+      ]
+    ]
+  },
+  {
+    "name": "Fey Bargain Table",
+    "source": "OREOrenth",
+    "colLabels": ["d6", "Vulnerability", "Resistance"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      ["1", "Acid", "Fire"],
+      ["2", "Psychic", "Necrotic"],
+      ["3", "Lightning", "Poison"],
+      ["4", "Radiant", "Cold"],
+      ["5", "Thunder", "Damage From Spell"],
+      ["6", "Fall Damage", "Damage From Breath Weapons"]
+    ]
+  },
+  {
+    "name": "Messed up Time Table",
+    "source": "OREOrenth",
+    "colLabels": ["d10", "Effect"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      ["1", "You get the Slowed Condition."],
+      ["2", "You age by 3d10 years."],
+      ["3", "You become 3d10 years younger to a minimum of 1 year."],
+      ["4", "You get the Dazed Condition"],
+      [
+        "5",
+        "A future version of you appears, whose only goal is to make sure his timeline doesn't come to pass."
+      ],
+      [
+        "6",
+        "Your speed doubles, but you must use up all your movement every turn to run in a straight line."
+      ],
+      [
+        "7",
+        "Any non-magical armour or weapon on you are carrying takes a -2 penalty"
+      ],
+      [
+        "8",
+        "Any non-magical armour or weapon returns to its original raw form (iron ore/silver ingot/a cow)"
+      ],
+      [
+        "9",
+        "Your perception of the world is delayed. Every turn you must announce what you want to do in that moment, but it will only happen on the next turn."
+      ],
+      [
+        "10",
+        "Time freezes, and you become paralyzed. At the end of every day spent in this state you may repeat the saving throw."
+      ]
+    ]
+  },
+  {
+    "name": "Chaos Rest Table",
+    "source": "OREOrenth",
+    "colLabels": ["d6", "Orenth Trait"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      ["1", "{@optfeature Red Rest|chromaticorenth"],
+      ["2", "{@optfeature Blue Res|chromaticorentht"],
+      ["3", "{@optfeature Green Rest|chromaticorenth"],
+      ["4", "{@optfeature Black Rest|chromaticorenth"],
+      ["5", "{@optfeature White Rest|chromaticorenth"],
+      ["6", "{@optfeature Elemental Rest|chromaticorenth"]
+    ]
+  },
+  {
+    "name": "Martial abilities",
+    "source": "OREOrenth",
+    "colLabels": ["Martial Ability", "Note"],
+    "colStyles": ["text-align-left", "text-align-left"],
+    "rows": [
+      [
+        "Sneak attack",
+        "They must meet the requirements for sneak attack to apply"
+      ],
+      ["Reckless Attack", ""],
+      ["Divine Strike", ""],
+      ["Fighting Style", ""],
+      [
+        "Divine Smite",
+        "Whenever they use your divine smite, it still costs your spell slots."
+      ],
+      [
+        "Favoured Foe",
+        "The wielder of the weapon uses favored foe as if they were the one using the feature."
+      ],
+      ["Exclusive Weapon Mastery", ""]
+    ]
+  }
 ]

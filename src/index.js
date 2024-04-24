@@ -1,6 +1,6 @@
 const csv = require("csv-parser");
 const fs = require("fs");
-const table = require("../resource/tables.json")
+const table = require("../resource/tables.json");
 const orenthTypes = [
   // Orenth Types
   { abr: "Gem", color: "d902a0" },
@@ -186,8 +186,7 @@ function writeToFile(results) {
       sources,
       optionalFeatureTypes,
     },
-    // TODO: Uncomment when tables are added
-    //table,
+    table,
     optionalfeature: results,
   };
 
