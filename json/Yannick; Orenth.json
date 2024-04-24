@@ -171,6 +171,648 @@
   },
   "optionalfeature": [
     {
+      "name": "Watery Dash",
+      "entries": [
+        "You gain the benefits of the {@optfeature Charge|ingensorenth} Orenth trait. Additionally while wielding this weapon you gain a swimming speed equal to twice your walking speed, but you can only move in a straight line and you get advantage on the attack while underwater. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Water"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Grasping Grass",
+      "entries": [
+        "You get the benefits of the {@optfeature Topple|ingensorenth} Orenth Trait. Additionally, whenever a creature fails the saving throw you may choose to restrain them too as vines sprout from the ground. This effect lasts until the end of your next turn. You may do so a number of times equal to your Wisdom modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Exploration"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Beat him up boys",
+      "entries": [
+        "You get the benefits of the {@optfeature Vex|ingensorenth} Orenth Trait. Additionally, whenever you successfully hit a creature to gain advantage you may choose to give any ally advantage on attack rolls against them until the start of your next turn. You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive, Kobold"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Acidic Vex",
+      "entries": [
+        "You get the benefits of the {@optfeature Vex|ingensorenth} Orenth trait. Whenever you hit a creature you may forgo the advantage from vex and instead deal an additional 2d4 acid damage when you hit. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Poisonous Graze",
+      "entries": [
+        "You get the benefits of the {@optfeature Graze|ingensorenth} Orenth trait. The damage you deal with graze is increased by 1d8 poison damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Aura of Cold",
+      "entries": [
+        "As a bonus action you can activate your aura. While your aura is active, any creature that starts its turn within 5 feet of you becomes slowed. They remain slowed until they end a turn further further than 5 feet away from you. It remains as long as you keep concentrating on it. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Expert Fey Steps",
+      "entries": [
+        "You’ve become an expert at stepping in and out of reality. When you use your bonus action for Fey Steps you gain a teleporting speed equal to your walking speed."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Improved Fey Steps|feyorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Knowing thy Enemy",
+      "entries": [
+        "You may choose an Wood or Gold Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "3 Amethyst Orenth traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Amethyst"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Cold Karst Winds",
+      "entries": [
+        "You may choose a Wind or Silver Orenth Trait of Tier 3 or lower if you meet the prerequisites for it. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "3 Crystal Orenth traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Crystal"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Subtle Magic Master",
+      "entries": [
+        "Whenever you cast a cantrip you may choose to ignore its somatic and verbal components.."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Subtle Magic Expert|gemorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Emerald"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Volcanic Adaptation",
+      "entries": [
+        "You may choose a Fire or Brass Orenth Trait of Tier 3 or lower if you meet the prerequisites for it. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "3 Emerald Orenth traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Emerald"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Sapphire Cytosis",
+      "entries": [
+        "You may choose a Lightning or Copper Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "3 Sapphire Orenth traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sapphire"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Seaside Dragon",
+      "entries": [
+        "You may choose a Water or Bronze Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "3 Topaz Orenth traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Topaz"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Psionic Topple",
+      "entries": [
+        "You gain the benefits of the {@optfeature Topple|ingensorenth} Orenth trait, however, the target must succeed on an Intelligence saving throw instead. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Illusory Graze",
+      "entries": [
+        "You gain the benefits of the {@optfeature Graze|ingensorenth} Orenth trait. However, whenever you miss a creature they take psychic damage equal to the ability modifier you used for the attack roll plus your Intelligence modifier instead. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Telekinetic Weapon",
+      "entries": [
+        "You gain the benefits of the {@optfeature Nick|ingensorenth} Orenth trait. Additionally, the weapon that has Nick applied to it, no longer requires a free hand to wield. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Big Skin",
+      "entries": [
+        "Your skin hardens like Big, giving you resistance to bludgeoning, piercing and slashing damage."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Iron Skin|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Giant"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Acquired Immunity",
+      "entries": [
+        "When you take damage you may reduce the damage by 1. The damage reduction increases by 1 every subsequent time you take damage. The damage reduction returns to 1 when you don't take damage for an entire round. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Oobleck"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ooze",
+        "Defensive",
+        "Prereq"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Topple",
+      "entries": [
+        "Whenever a creature fails the saving throw against your Topple Orenth Trait, their speed is reduced to 0 until the end of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Topple|ingensorenth} "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Flex",
+      "entries": [
+        "Whenever you hit with the weapon that your Flex Orenth trait applies to, you may roll the damage die twice. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Flex|ingensorenth} "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Sap",
+      "entries": [
+        "You get the benefits of the Sap Orenth trait, but the creature gains disadvantage on all attacks before the start of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Sap|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Slow",
+      "entries": [
+        "Whenever you hit a creature their speed is reduced to 0 until the start of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Slow|ingensorenth}t"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Deflective Weapons",
+      "entries": [
+        "The amount of dice you roll when you use your Deflective Weapons Orenth trait doubles. Additionally the armour class increase lasts until the start of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Deflective Weapons|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Distracting Mockery",
+      "entries": [
+        "Whenever a creature uses a reaction within 30 feet of you, you may use your reaction to force them to make a Wisdom saving throw (DC = 8+ your prof. bonus + your Charisma modifier). On a failure they take 1d4 psychic damage and lose their reaction. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Copper"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Inspired Vex",
+      "entries": [
+        "You gain the benefits of the {@optfeature Vex|ingensorenth} Orenth trait. Additionally, whenever you hit a creature you may also choose to give an ally advantage on their next attack they make against the creature before the start of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Living Legend",
+      "entries": [
+        "Stories have been spread about your great deeds and the people's belief in you bolsters you. You may use your Charisma modifier instead of your Constitution for calculating your hp. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Defensive",
+        "Flavour"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Formidable Recovery",
+      "entries": [
+        "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a fourth level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Recovery",
+        "Spellcasting",
+        "Rest",
+        "Meta"
+      ],
+      "source": "OtherOrenth"
+    },
+    {
       "name": "Warrior of Chaos",
       "entries": [
         "Whenever you roll a 1 on an attack roll you may choose to hit instead, but you also take the damage your attack dealt."
@@ -4494,7 +5136,7 @@
     {
       "name": "Jumping Spark",
       "entries": [
-        "You gain the benefits of the Cleave Orenth trait. Before you make the second attack you may move 10 feet without provoking opportunity attacks or using your movement. You must end this movement in a place where you can reach your second target. "
+        "You gain the benefits of the {@optfeature Cleave| ingensorenth} Orenth trait. Before you make the second attack you may move 10 feet without provoking opportunity attacks or using your movement. You must end this movement in a place where you can reach your second target. "
       ],
       "prerequisite": [
         {
@@ -4529,7 +5171,7 @@
             }
           },
           "feature": [
-            "Jumping Charge Orenth Trait"
+            "Jumping Charge"
           ]
         }
       ],
@@ -4936,7 +5578,7 @@
             }
           },
           "feature": [
-            "Expert Fey Bargainer"
+            "{@optfeature Expert Fey Bargainer |feyorenth}"
           ]
         }
       ],
@@ -4959,7 +5601,7 @@
             }
           },
           "feature": [
-            "Fey Steps"
+            "{@optfeature Fey Steps|feyorenth}"
           ]
         }
       ],
@@ -5199,7 +5841,7 @@
     {
       "name": "Drain its life",
       "entries": [
-        "You gain the benefits of the Sap Orenth trait. After you use your Sap Orenth trait the creature only deals half damage on the next attack that hits. "
+        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. After you use your Sap Orenth trait the creature only deals half damage on the next attack that hits. "
       ],
       "prerequisite": [
         {
@@ -5223,7 +5865,7 @@
     {
       "name": "Psionic Cleave",
       "entries": [
-        "You get the benefits of the Cleave Orenth trait. Additionally, wheneveryou make the second attack, the second creature must be within 10 feet of the original but not necessarilily within your reach. "
+        "You get the benefits of the {@optfeature Cleave|ingensorenth} Orenth trait. Additionally, wheneveryou make the second attack, the second creature must be within 10 feet of the original but not necessarilily within your reach. "
       ],
       "prerequisite": [
         {
@@ -5247,7 +5889,7 @@
     {
       "name": "Transfer of Kinetic Energy",
       "entries": [
-        "You gain the benefits of the Slow Orenth trait. Additionally, whenever you reduce a creature's speed your own speed increases by 10 feet until the end of your turn. "
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, whenever you reduce a creature's speed your own speed increases by 10 feet until the end of your turn. "
       ],
       "prerequisite": [
         {
@@ -5295,7 +5937,7 @@
     {
       "name": "Mastery over Body and Mind",
       "entries": [
-        "You gain the benefits of the Elegant Fighting Orenth trait. Additionally, you may use your Intelligence instead of your Strength or Dexterity for attack and damage rolls when fighting with a Finesse weapon. "
+        "You gain the benefits of the {@optfeature Elegant Fighting|gemorenth} Orenth trait. Additionally, you may use your Intelligence instead of your Strength or Dexterity for attack and damage rolls when fighting with a Finesse weapon. "
       ],
       "prerequisite": [
         {
@@ -5339,7 +5981,7 @@
     {
       "name": "Gem Snack Summoner",
       "entries": [
-        "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the Snack Summon table\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
+        "Once per long rest you can cast {@spell Summon Beast} at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the Snack Summon table\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
       ],
       "prerequisite": [
         {
@@ -5399,7 +6041,7 @@
     {
       "name": "Induced Gravity",
       "entries": [
-        "You gain the benefits of the Slow Orenth trait. Additionally, any creature of your choice within 10 feet of the creature you slowed also has its speed reduced by 10 feet until the start of your next turn. "
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, any creature of your choice within 10 feet of the creature you slowed also has its speed reduced by 10 feet until the start of your next turn. "
       ],
       "prerequisite": [
         {
@@ -5415,14 +6057,15 @@
         }
       ],
       "featureType": [
-        "ORE"
+        "ORE",
+        "Weapon Mastery"
       ],
       "source": "GemOrenth"
     },
     {
       "name": "Friendly Strikes",
       "entries": [
-        "You gain the benefits of the Sap Orenth trait. Additionally, whenever you hit a creature you may choose to charm them instead. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Intelligence modifier). On a failed save they become charmed by you until the start of your next turn. On a successful save nothing happens (and they also don't gain disadvantage on their next attack against you). You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
+        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. Additionally, whenever you hit a creature you may choose to charm them instead. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Intelligence modifier). On a failed save they become charmed by you until the start of your next turn. On a successful save nothing happens (and they also don't gain disadvantage on their next attack against you). You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
       ],
       "prerequisite": [
         {
@@ -5619,7 +6262,7 @@
             }
           },
           "feature": [
-            "Constrict "
+            "{@optfeature Constrict|ingens} "
           ]
         }
       ],
@@ -5647,7 +6290,7 @@
             }
           },
           "feature": [
-            "Oobleck Armor Orenth Trait"
+            "{@optfeature Oobleck Armor|ingensorenth}"
           ]
         }
       ],
@@ -5827,7 +6470,7 @@
     {
       "name": "Bounce",
       "entries": [
-        "You get the benefits of the Push Orenth trait, but instead of pushing the creature, you can decide to push yourself 10 feet in a direction of your choice instead. This movement does not provoke opportunity attacks. "
+        "You get the benefits of the {@optfeature Push|ingensorenth} Orenth trait, but instead of pushing the creature, you can decide to push yourself 10 feet in a direction of your choice instead. This movement does not provoke opportunity attacks. "
       ],
       "prerequisite": [
         {
@@ -5851,7 +6494,7 @@
     {
       "name": "Shield and Sword",
       "entries": [
-        "You get the benefits of the Flex Orenth trait. Additionally, while wearing a shield and using the weapon from your Flex Orenth trait you may add the shield's AC to the damage you deal with your Flex weapon. "
+        "You get the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wearing a shield and using the weapon from your Flex Orenth trait you may add the shield's AC to the damage you deal with your Flex weapon. "
       ],
       "prerequisite": [
         {
@@ -5886,7 +6529,7 @@
             }
           },
           "feature": [
-            "Graze Orenth Trait"
+            "{@optfeature Graze|ingensorenth} "
           ]
         }
       ],
@@ -5910,7 +6553,7 @@
             }
           },
           "feature": [
-            "Close Quarters Combat Orenth Trait"
+            "{@optfeature Close Quarters Combat|ingensorenth} "
           ]
         }
       ],
@@ -5934,7 +6577,7 @@
             }
           },
           "feature": [
-            "Charge Orenth Trait"
+            "{@optfeature Charge|ingensorenth}"
           ]
         }
       ],
@@ -5958,7 +6601,7 @@
             }
           },
           "feature": [
-            "Nick Orenth Trait"
+            "{@optfeature Nick|ingensorenth}"
           ]
         }
       ],
@@ -5982,7 +6625,7 @@
             }
           },
           "feature": [
-            "Strangle Orenth Trait"
+            "{@optfeature Strangle|ingensorenth}"
           ]
         }
       ],
@@ -5995,7 +6638,7 @@
     {
       "name": "1damage1dice",
       "entries": [
-        "You gain the benefits of the Flex Orenth trait. Additionally, while wielding the weapon with two hands the damage die increases by one. "
+        "You gain the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wielding the weapon with two hands the damage die increases by one. "
       ],
       "prerequisite": [
         {
@@ -6030,7 +6673,7 @@
             }
           },
           "feature": [
-            "Bloody Wound"
+            "{@optfeature Bloody Wound|ingensorenth}"
           ]
         }
       ],
@@ -6081,7 +6724,7 @@
             }
           },
           "feature": [
-            "Extremely Stubborn"
+            "{@optfeature Extremely Stubborn|ingensorenth}"
           ]
         }
       ],
@@ -6293,7 +6936,7 @@
     {
       "name": "Frozen Strikes",
       "entries": [
-        "You get the benefits of the Slow Orenth trait, with the following change: There is no more limit to how much you can decrease a creature's speed. "
+        "You get the benefits of the {@optfeature Slow|ingensorenth} Orenth trait, with the following change: There is no more limit to how much you can decrease a creature's speed. "
       ],
       "prerequisite": [
         {
@@ -6378,7 +7021,7 @@
             }
           },
           "feature": [
-            "Hands of Superior Healing"
+            "{@optfeature Hands of Superior Healing|metallicorenth}"
           ]
         }
       ],
@@ -6476,7 +7119,7 @@
     {
       "name": "Dissuading Words",
       "entries": [
-        "You gain the benefits of the Sap Orenth trait. Additionally after you hit a creature they also have disadvantage on their next Wisdom Saving Throw. "
+        "You gain the benefits of the {@optfeature Sap|ingengsorenth} Orenth trait. Additionally after you hit a creature they also have disadvantage on their next Wisdom Saving Throw. "
       ],
       "prerequisite": [
         {
@@ -6802,7 +7445,7 @@
             }
           },
           "feature": [
-            "Warrior of Flame "
+            "{@optfeature Warrior of Flame|chromaticorenth} "
           ]
         }
       ],
@@ -6952,7 +7595,7 @@
             }
           },
           "feature": [
-            "Warrior of Spores\nTier 1 Fey Trait"
+            "{@optfeature Warrior of Spores|chromaticorenth},\nTier 1 Fey Trait"
           ]
         }
       ],
@@ -7007,7 +7650,7 @@
             }
           },
           "feature": [
-            "Warrior of Storm"
+            "{@optfeature Warrior of Storm|chromaticorenth}"
           ]
         }
       ],
@@ -7184,7 +7827,7 @@
             }
           },
           "feature": [
-            "Warrior of Water"
+            "{@optfeature Warrior of Water|chromaticorenth}"
           ]
         }
       ],
@@ -7275,7 +7918,7 @@
     {
       "name": "The Winds are on my Side.",
       "entries": [
-        "You get the benefits of the Grinding Halt Orenth Trait. Whenever you use the feature you may make the creature that pushed you make the saving throw also. On a failure they are pushed the distance away from you instead. Any other effects that result from the saving throw still only apply to you. "
+        "You get the benefits of the {@optfeature Grinding Halt|ingensorenth} Orenth Trait. Whenever you use the feature you may make the creature that pushed you make the saving throw also. On a failure they are pushed the distance away from you instead. Any other effects that result from the saving throw still only apply to you. "
       ],
       "prerequisite": [
         {
@@ -7304,7 +7947,7 @@
     {
       "name": "Fungal Fear",
       "entries": [
-        "You get the benefits of the Fearsome Accuracy Orenth trait. Additionally whenever you hit a creature at the edge of your range you deal an additional 1d6 psychic damage to them. "
+        "You get the benefits of the {@optfeature Fearsome Accuracy|ingensorenth} trait. Additionally whenever you hit a creature at the edge of your range you deal an additional 1d6 psychic damage to them. "
       ],
       "prerequisite": [
         {
@@ -7356,7 +7999,7 @@
     {
       "name": "Elemental Deflection",
       "entries": [
-        "You gain the benefits of the Deflective Weapons Orenth trait. Whenever you make a saving throw to avoid taking Elemental Damage, you may also use your reaction to roll the dice and add it to your saving throw. "
+        "You gain the benefits of the {@optfeature Deflective Weapons|ingensorenth} Orenth trait. Whenever you make a saving throw to avoid taking Elemental Damage, you may also use your reaction to roll the dice and add it to your saving throw. "
       ],
       "prerequisite": [
         {
@@ -7422,7 +8065,7 @@
             }
           },
           "feature": [
-            "Warrior of Wind"
+            "{@optfeature Warrior of Wind|chromaticorenth}"
           ]
         }
       ],
@@ -7500,7 +8143,7 @@
             }
           },
           "feature": [
-            "Warrior of Wood"
+            "{@optfeature Warrior of Wood|chromaticorenth}"
           ]
         }
       ],
@@ -7607,7 +8250,7 @@
             }
           },
           "feature": [
-            "Endured Suffering"
+            "{@optfeature Endured Suffering|chromatic orenth}"
           ]
         }
       ],
@@ -7905,7 +8548,7 @@
             }
           },
           "feature": [
-            "Elven Eyes"
+            "{@optfeature Elven Eyes|feyorenth}"
           ]
         }
       ],
@@ -7962,7 +8605,7 @@
             }
           },
           "feature": [
-            "Fey Blood"
+            "{@optfeature Fey Blood|feyorenth}"
           ]
         }
       ],
@@ -8015,7 +8658,7 @@
             }
           },
           "feature": [
-            "Weird Magic"
+            "{@optfeature Weird Magic|feyorenth}"
           ]
         }
       ],
@@ -8078,7 +8721,7 @@
     {
       "name": "Sea Hag's Glare",
       "entries": [
-        "As a bonus action you may glare at a creature within 15 feet of you that can see you. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Charisma modifier), on a failure they become frightened of you for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your glare for the next 24 hours.\nYou may use this feature a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
+        "As a bonus action you may glare at a creature within 15 feet of you that can see you. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Charisma modifier), on a failure they become frightened of you for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your glare for the next 24 hours.\r\nYou may use this feature a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
       ],
       "prerequisite": [
         {
@@ -8254,7 +8897,7 @@
             }
           },
           "feature": [
-            "Novice Fey Bargainer"
+            "{@optfeature Novice Fey Bargainer|feyorenth}"
           ]
         }
       ],
@@ -8701,7 +9344,7 @@
             }
           },
           "feature": [
-            "Subtle Magic Adept"
+            "{@optfeature Subtle Magic Adept|gemorenth}"
           ]
         }
       ],
@@ -9263,7 +9906,7 @@
             }
           },
           "feature": [
-            "Telepathic Link"
+            "{@optfeature Telepathic Link|gemorenth}"
           ]
         }
       ],
@@ -9341,7 +9984,7 @@
             }
           },
           "feature": [
-            "Gem Shell Resilience"
+            "{@optfeature Gem Shell Resilience|gemorenth}"
           ]
         }
       ],
@@ -9777,7 +10420,7 @@
             }
           },
           "feature": [
-            "Push Orenth Trait"
+            "{@optfeature Push|ingensorenth}"
           ]
         }
       ],
@@ -9807,7 +10450,7 @@
             }
           },
           "feature": [
-            "Cleave Orenth Trait"
+            "{@optfeature Cleave|ingensorenth}"
           ]
         }
       ],
@@ -9836,7 +10479,7 @@
             }
           },
           "feature": [
-            "Fearsome Accuracy Orenth Trait"
+            "{@optfeature Fearsome Accuracy|ingensorenth}"
           ]
         }
       ],
@@ -9865,7 +10508,7 @@
             }
           },
           "feature": [
-            "Grinding Halt Orenth Trait"
+            "{@optfeature Grinding Halt|ingensorenth}"
           ]
         }
       ],
@@ -9895,7 +10538,7 @@
             }
           },
           "feature": [
-            "Lock Blades Orenth Trait"
+            "{@optfeature Lock Blades|ingensorenth}"
           ]
         }
       ],
@@ -9924,7 +10567,7 @@
             }
           },
           "feature": [
-            "Applicable Weapon Mastery Orenth Trait"
+            "{@optfeature Applicable Weapon|ingensorenth}"
           ]
         }
       ],
@@ -10108,7 +10751,7 @@
             }
           },
           "feature": [
-            "Crushing Blow"
+            "{@optfeature Crushing Blow|ingensorenth}"
           ]
         }
       ],
@@ -10164,7 +10807,7 @@
             }
           },
           "feature": [
-            "Repel Charge"
+            "{@optfeature Repel Charge|ingensorenth}"
           ]
         }
       ],
@@ -10221,7 +10864,7 @@
             }
           },
           "feature": [
-            "Broken Weapon and Bones"
+            "{@optfeature Broken Weapon and Bones|ingensorenth}"
           ]
         }
       ],
@@ -10249,7 +10892,7 @@
             }
           },
           "feature": [
-            "The Human Spirit"
+            "{@optfeature The Human Spirit|ingensorenth}"
           ]
         }
       ],
@@ -10300,7 +10943,7 @@
             }
           },
           "feature": [
-            "Stubborn"
+            "{@optfeature Stubborn|ingensorenth}"
           ]
         }
       ],
@@ -10503,7 +11146,7 @@
             }
           },
           "feature": [
-            "Funne Man"
+            "{@optfeature Funne Man|ingensorenth}"
           ]
         }
       ],
@@ -10575,677 +11218,9 @@
       "source": "MetallicOrenth"
     },
     {
-      "name": "Shiny Scales",
-      "entries": [
-        "Whenever you take radiant damage you can use your reaction to reflect it back towards your attacker. You take no damage and instead for the attacker to make a Dexterity saving throw (DC=8+your proficiency bonus+your Charisma modifier). On a failed save they take the radiant damage instead. You may use this ability a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 2,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Metallic Dragonborn"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Platinum",
-        "Defensive",
-        "Racial"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Watery Dash",
-      "entries": [
-        "You gain the benefits of the Charge Orenth trait. Additionally while wielding this weapon you gain a swimming speed equal to twice your walking speed, but you can only move in a straight line and you get advantage on the attack while underwater. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Water"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Grasping Grass",
-      "entries": [
-        "You get the benefits of the Topple Orenth Trait. Additionally, whenever a creature fails the saving throw you may choose to restrain them too as vines sprout from the ground. This effect lasts until the end of your next turn. You may do so a number of times equal to your Wisdom modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery",
-        "Exploration"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Beat him up boys",
-      "entries": [
-        "You get the benefits of the Vex Orenth Trait. Additionally, whenever you successfully hit a creature to gain advantage you may choose to give any ally advantage on attack rolls against them until the start of your next turn. You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive, Kobold"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Acidic Vex",
-      "entries": [
-        "You get the benefits of the Vex Orenth trait. Whenever you hit a creature you may forgo the advantage from vex and instead deal an additional 2d4 acid damage when you hit. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Poisonous Graze",
-      "entries": [
-        "You get the benefits of the Graze Orenth trait. The damage you deal with graze is increased by 1d8 poison damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Aura of Cold",
-      "entries": [
-        "As a bonus action you can activate your aura. While your aura is active, any creature that starts its turn within 5 feet of you becomes slowed. They remain slowed until they end a turn further further than 5 feet away from you. It remains as long as you keep concentrating on it. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Wind"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Expert Fey Steps",
-      "entries": [
-        "You’ve become an expert at stepping in and out of reality. When you use your bonus action for Fey Steps you gain a teleporting speed equal to your walking speed."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Improved Fey Steps"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Knowing thy Enemy",
-      "entries": [
-        "You may choose an Wood or Gold Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "3 Amethyst Orenth traits"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Amethyst"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Cold Karst Winds",
-      "entries": [
-        "You may choose a Wind or Silver Orenth Trait of Tier 3 or lower if you meet the prerequisites for it. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "3 Crystal Orenth traits"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Crystal"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Subtle Magic Master",
-      "entries": [
-        "Whenever you cast a cantrip you may choose to ignore its somatic and verbal components.."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Subtle Magic Expert"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Emerald"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Volcanic Adaptation",
-      "entries": [
-        "You may choose a Fire or Brass Orenth Trait of Tier 3 or lower if you meet the prerequisites for it. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "3 Emerald Orenth traits"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Emerald"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Sapphire Cytosis",
-      "entries": [
-        "You may choose a Lightning or Copper Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "3 Sapphire Orenth traits"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sapphire"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Seaside Dragon",
-      "entries": [
-        "You may choose a Water or Bronze Orenth Trait of Tier 3 or lower if you meet the prerequisites. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "3 Topaz Orenth traits"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Topaz"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Psionic Topple",
-      "entries": [
-        "You gain the benefits of the Topple Orenth trait, however, the target must succeed on an Intelligence saving throw instead. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Illusory Graze",
-      "entries": [
-        "You gain the benefits of the Graze Orenth trait. However, whenever you miss a creature they take psychic damage equal to the ability modifier you used for the attack roll plus your Intelligence modifier instead. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Telekinetic Weapon",
-      "entries": [
-        "You gain the benefits of the Nick Orenth trait. Additionally, the weapon that has Nick applied to it, no longer requires a free hand to wield. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Big Skin",
-      "entries": [
-        "Your skin hardens like Big, giving you resistance to bludgeoning, piercing and slashing damage."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Iron Skin"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Giant"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Acquired Immunity",
-      "entries": [
-        "When you take damage you may reduce the damage by 1. The damage reduction increases by 1 every subsequent time you take damage. The damage reduction returns to 1 when you don't take damage for an entire round. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Oobleck"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ooze",
-        "Defensive",
-        "Prereq"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Topple",
-      "entries": [
-        "Whenever a creature fails the saving throw against your Topple Orenth Trait, their speed is reduced to 0 until the end of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Topple Orenth Trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Flex",
-      "entries": [
-        "Whenever you hit with the weapon that your Flex Orenth trait applies to, you may roll the damage die twice. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Flex Orenth Trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Sap",
-      "entries": [
-        "You get the benefits of the Sap Orenth trait, but the creature gains disadvantage on all attacks before the start of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Sap Orenth Trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Slow",
-      "entries": [
-        "Whenever you hit a creature their speed is reduced to 0 until the start of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Slow Orenth Trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Deflective Weapons",
-      "entries": [
-        "The amount of dice you roll when you use your Deflective Weapons Orenth trait doubles. Additionally the armour class increase lasts until the start of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Deflective Weapons Orenth Trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Distracting Mockery",
-      "entries": [
-        "Whenever a creature uses a reaction within 30 feet of you, you may use your reaction to force them to make a Wisdom saving throw (DC = 8+ your prof. bonus + your Charisma modifier). On a failure they take 1d4 psychic damage and lose their reaction. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Copper"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Inspired Vex",
-      "entries": [
-        "You gain the benefits of the Vex Orenth trait. Additionally, whenever you hit a creature you may also choose to give an ally advantage on their next attack they make against the creature before the start of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Living Legend",
-      "entries": [
-        "Stories have been spread about your great deeds and the people's belief in you bolsters you. You may use your Charisma modifier instead of your Constitution for calculating your hp. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Defensive",
-        "Flavour"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Formidable Recovery",
-      "entries": [
-        "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a fourth level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 4,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Spell Recovery",
-        "Spellcasting",
-        "Rest",
-        "Meta"
-      ],
-      "source": "OtherOrenth"
-    },
-    {
       "name": "Animating Breaths",
       "entries": [
-        "Instead of using your Breath Weapon, you may instead spend 4 uses of it to summon an Animated Breath (FTD) related to your Chromatic ancestry. The Animated Breath is under your control and you can command it (no action required). It remains for 10 minutes. "
+        "Instead of using your Breath Weapon, you may instead spend 4 uses of it to summon an {@creature Animated Breath|ftd} related to your Chromatic ancestry. The Animated Breath is under your control and you can command it (no action required). It remains for 10 minutes. "
       ],
       "prerequisite": [
         {
@@ -11270,7 +11245,7 @@
     {
       "name": "Ruthless Fire",
       "entries": [
-        "You gain the benefits of the Graze Orenth trait. Additionally, before you attack a creature you may reduce your hit bonus by a value of your choosing. If you hit you deal twice this value in fire damage to the target. "
+        "You gain the benefits of the {@optfeature Graze|ingensorenth} Orenth trait. Additionally, before you attack a creature you may reduce your hit bonus by a value of your choosing. If you hit you deal twice this value in fire damage to the target. "
       ],
       "prerequisite": [
         {
@@ -11309,7 +11284,7 @@
             }
           },
           "feature": [
-            "Expert Fey Steps"
+            "{@optfeature Expert Fey Steps|feyorenth}"
           ]
         }
       ],
@@ -11323,7 +11298,7 @@
     {
       "name": "Advanced Photosynthesis",
       "entries": [
-        "Your Photosynthesis Trait functions whenever you are in bright light. "
+        "Your {@optfeature Photosynthesis|feyorenth} Trait functions whenever you are in bright light. "
       ],
       "prerequisite": [
         {
@@ -11334,7 +11309,7 @@
             }
           },
           "feature": [
-            "Photosynthesis Trait"
+            "{@optfeature Photosynthesis|feyorenth}"
           ]
         }
       ],
@@ -11348,7 +11323,7 @@
     {
       "name": "Slowed Time Strikes",
       "entries": [
-        "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Dazed condition.  "
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Dazed condition.  "
       ],
       "prerequisite": [
         {
@@ -11376,7 +11351,7 @@
     {
       "name": "Weapon Mastered: Vex",
       "entries": [
-        "After you use your Vex Orenth Trait you can choose to make an additional attack against them instead of gaining advantage. You may do so once per turn. "
+        "After you use your {@optfeature Vex|ingensorenth} Orenth Trait you can choose to make an additional attack against them instead of gaining advantage. You may do so once per turn. "
       ],
       "prerequisite": [
         {
@@ -11404,7 +11379,7 @@
     {
       "name": "Dragon Turtle Speed",
       "entries": [
-        "You gain the benefits of the Slow Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Slowed condition.  "
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. However, instead of reducing their speed by 10 feet you may instead choose to give them the Slowed condition.  "
       ],
       "prerequisite": [
         {
@@ -11529,6 +11504,32 @@
       "source": "ChromaticOrenth"
     },
     {
+      "name": "Shiny Scales",
+      "entries": [
+        "Whenever you take radiant damage you can use your reaction to reflect it back towards your attacker. You take no damage and instead for the attacker to make a Dexterity saving throw (DC=8+your proficiency bonus+your Charisma modifier). On a failed save they take the radiant damage instead. You may use this ability a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Metallic Dragonborn"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum",
+        "Defensive",
+        "Racial"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
       "name": "Focused Healing",
       "entries": [
         "As a reaction to an ability that restores hit points being cast within 60 feet of you, you may make a Charisma (Medicine) check (DC=10+twice the amount of dice that would be healed). On a success you can heal the maximum amount of each die instead of rolling. "
@@ -11579,7 +11580,7 @@
     {
       "name": "Bronze Duelling",
       "entries": [
-        "You get the benefits of the Deflective Weapons Orenth Trait with the following changes: The die is a d6 instead of a d4. Additionally, whenever you use the feature you also gain temporary hit points equal to the number rolled on the d6. "
+        "You get the benefits of the {@optfeature Deflective Weapons|ingensorenth} Orenth Trait with the following changes: The die is a d6 instead of a d4. Additionally, whenever you use the feature you also gain temporary hit points equal to the number rolled on the d6. "
       ],
       "prerequisite": [
         {
@@ -11631,7 +11632,7 @@
     {
       "name": "Bane of Evil",
       "entries": [
-        "You gain the benefits of the Fearsome Accuracy Orenth trait. Any creature that has an evil alignment has disadvantage on the saving throw. "
+        "You gain the benefits of the {@optfeature Fearsome Accuracy|ingensorenth} Orenth trait. Any creature that has an evil alignment has disadvantage on the saving throw. "
       ],
       "prerequisite": [
         {
@@ -11659,7 +11660,7 @@
     {
       "name": "Defence is the best Offence",
       "entries": [
-        "You gain the benefits of the Deflective Weapons Orenth trait. Additionally, the next time you hit the creature that attacked you, you may deal additional damage equal to the die you rolled to deflect the attack. "
+        "You gain the benefits of the {@optfeature Deflective Weapons|ingensorenth} Orenth trait. Additionally, the next time you hit the creature that attacked you, you may deal additional damage equal to the die you rolled to deflect the attack. "
       ],
       "prerequisite": [
         {
@@ -11688,7 +11689,7 @@
     {
       "name": "Bronze Shield",
       "entries": [
-        "You gain the benefits of the Deflective Weapons Orenth trait. Additionally, you may also use the ability on a creature within 5 feet of you when they are attacked, possibly shielding them. "
+        "You gain the benefits of the {@optfeature Deflective Weapons|ingensorenth} Orenth trait. Additionally, you may also use the ability on a creature within 5 feet of you when they are attacked, possibly shielding them. "
       ],
       "prerequisite": [
         {
@@ -11774,7 +11775,7 @@
             }
           },
           "feature": [
-            "Hands of Greater Healing"
+            "{@optfeature Hands of Greater Healing|metallicorenth}"
           ]
         }
       ],
