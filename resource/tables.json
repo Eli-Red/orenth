@@ -83,33 +83,33 @@
     "rows": [
       [
         "Air",
-        "{@spell Gust|xge",
-        "{@spell Zephyr Strike |xge",
-        "{@spell Gust of Wind|phb"
+        "{@spell Gust|xge}",
+        "{@spell Zephyr Strike|xge}",
+        "{@spell Gust of Wind}"
       ],
       [
         "Earth",
-        "{@spell Mold Earth|xge",
-        "{@spell Earth Tremor|xge",
-        "{@spell Maximillian's Earthen Grasp|xge"
+        "{@spell Mold Earth|xge}",
+        "{@spell Earth Tremor|xge}",
+        "{@spell Maximillian's Earthen Grasp|xge}"
       ],
       [
         "Fire",
-        "{@spell Fire Bolt|phb",
-        "{@spell Hellish Rebuke|phb",
-        "{@spell Scorching Ray|phb"
+        "{@spell Fire Bolt|phb}",
+        "{@spell Hellish Rebuke|phb}",
+        "{@spell Scorching Ray|phb}"
       ],
       [
         "Water",
-        "{@spell Shape Water|xge",
-        "{@spell Armor of Agathys|phb",
-        "{@spell Rime's Binding Ice|ftd"
+        "{@spell Shape Water|xge}",
+        "{@spell Armor of Agathys|phb}",
+        "{@spell Rime's Binding Ice|ftd}"
       ],
       [
         "Chaos",
-        "{@spell Thaumaturgy|phb",
-        "{@spell Chaos Bolt|xge",
-        "{@spell Dragon's Breath|xge"
+        "{@spell Thaumaturgy|phb}",
+        "{@spell Chaos Bolt|xge}",
+        "{@spell Dragon's Breath|xge}"
       ]
     ]
   },
@@ -169,11 +169,14 @@
     "colLabels": ["d6", "Orenth Trait"],
     "colStyles": ["text-align-left", "text-align-left"],
     "rows": [
-      ["1", "{@optfeature Red Rest|chromaticorenth"],
-      ["2", "{@optfeature Blue Res|chromaticorentht"],
+      [
+        "1",
+        "{@item Platinum staff topped with amber (Sun Empire)|psx} {@optfeature Red Rest|chromaticorenth"
+      ],
+      ["2", "{@optfeature Blue Rest|chromaticorenth"],
       ["3", "{@optfeature Green Rest|chromaticorenth"],
       ["4", "{@optfeature Black Rest|chromaticorenth"],
-      ["5", "{@optfeature White Rest|chromaticorenth"],
+      ["5", "{@optfeature White Rest|chromatic"],
       ["6", "{@optfeature Elemental Rest|chromaticorenth"]
     ]
   },
