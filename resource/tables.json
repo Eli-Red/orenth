@@ -169,15 +169,12 @@
     "colLabels": ["d6", "Orenth Trait"],
     "colStyles": ["text-align-left", "text-align-left"],
     "rows": [
-      [
-        "1",
-        "{@item Platinum staff topped with amber (Sun Empire)|psx} {@optfeature Red Rest|chromaticorenth"
-      ],
-      ["2", "{@optfeature Blue Rest|chromaticorenth"],
-      ["3", "{@optfeature Green Rest|chromaticorenth"],
-      ["4", "{@optfeature Black Rest|chromaticorenth"],
-      ["5", "{@optfeature White Rest|chromatic"],
-      ["6", "{@optfeature Elemental Rest|chromaticorenth"]
+      ["1", "{@optfeature Red Rest|chromaticorenth}"],
+      ["2", "{@optfeature Blue Rest|chromaticorenth}"],
+      ["3", "{@optfeature Green Rest|chromaticorenth}"],
+      ["4", "{@optfeature Black Rest|chromaticorenth}"],
+      ["5", "{@optfeature White Rest|chromatic}"],
+      ["6", "{@optfeature Elemental Rest|chromaticorenth}"]
     ]
   },
   {

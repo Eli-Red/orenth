@@ -453,27 +453,27 @@
       "rows": [
         [
           "1",
-          "{@item Platinum staff topped with amber (Sun Empire)|psx} {@optfeature Red Rest|chromaticorenth"
+          "{@optfeature Red Rest|chromaticorenth}"
         ],
         [
           "2",
-          "{@optfeature Blue Rest|chromaticorenth"
+          "{@optfeature Blue Rest|chromaticorenth}"
         ],
         [
           "3",
-          "{@optfeature Green Rest|chromaticorenth"
+          "{@optfeature Green Rest|chromaticorenth}"
         ],
         [
           "4",
-          "{@optfeature Black Rest|chromaticorenth"
+          "{@optfeature Black Rest|chromaticorenth}"
         ],
         [
           "5",
-          "{@optfeature White Rest|chromatic"
+          "{@optfeature White Rest|chromatic}"
         ],
         [
           "6",
-          "{@optfeature Elemental Rest|chromaticorenth"
+          "{@optfeature Elemental Rest|chromaticorenth}"
         ]
       ]
     },
