@@ -4441,6 +4441,418 @@
       "source": "IngensOrenth"
     },
     {
+      "name": "Chaotic Recovery",
+      "entries": [
+        "Whenever you cast a first level spell roll 1d4. If you roll a 1 you do not expend a spellslot and you must roll on the wild magic table. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Recovery",
+        "Spellcasting",
+        "Rest"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Size Smith",
+      "entries": [
+        "Choose a spell you can cast that has a size limitation. You no longer need to abide to the size limitation when casting this spell."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Martial",
+        "Spellcasting",
+        "Exclusive"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "The cold never bothered me anyway",
+      "entries": [
+        "You gain resistance to cold damage. Additionally, you are immune to secondary effects from abilities that deal cold damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Silver",
+        "Spellcasting",
+        "Defensive",
+        "Movement"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Deafening Spells",
+      "entries": [
+        "Choose a spell that deals thunder damage. Whenever a creature takes damage from this spell they also become deafened for a number of rounds equal to the amount of damage dice the creature took (or half the amount if they succeeded on a saving throw and only took half damage). "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Offensive",
+        "Exclusive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Delayed Casting",
+      "entries": [
+        "Choose a spell that takes an action to cast. Whenever you cast it, you may delay the spell for up to one minute. You must already determine the targets when you initially cast it. At any point during this minute you may use your reaction to cast the spell in the way you specified, using your position when you cast it as the point of origin. If the specified way of casting is no longer possible you loose the spellslot. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Lengthy Rituals",
+      "entries": [
+        "Choose a spell that you can cast as a ritual with a duration. Whenever you cast this spell as a ritual its duration doubles. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Quarterling",
+      "entries": [
+        "Once per long rest you can squeeze through a 1 inch gap. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Tiny Human",
+      "entries": [
+        "You are considered Human for the sake of Orenth and Feat prerequisites."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial",
+        "Meta"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Centaur Slavers",
+      "entries": [
+        "Celestials have disavantage on saves made to avoid or end the charmed or frightened condition caused by you. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Martial",
+        "Spellcasting",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "But I can carry you!",
+      "entries": [
+        "Another creature can grapple you as a Free Action on their turn if you are willing. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Defensive",
+        "Racial",
+        "Movement"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Controlled Gravity",
+      "entries": [
+        "Whenever a creature takes fall damage you may use your reaction to add or subtract 1d6 from the damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Amethyst",
+        "Offensive",
+        "Defensive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Tiny Elf",
+      "entries": [
+        "You are considered an Elf for the sake of Orenth and Feat prerequisites."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Gnome"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Racial",
+        "Meta"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Original heritage",
+      "entries": [
+        "You're still connected to your parental heritage even if you're the chosen of one of the moons. You may pick one of the following traits: \n- Fey heritage: You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\n- Oceanic heritage: You have a swimming speed equal to your walking speed.\n- Hunter heritage: Your walking speed increases by 5 feet. \n- Little folk heritage: You gain proficiency in the Stealth skill. \n- Magical heritage: You know the prestidigitation, druidcraft or thaumaturgy cantrip. \n- Bestial heritage: Your unarmed strikes deal 1d6+your strength modifier in slashing damage. \n- Civilised heritage: You gain proficiency in a tool of your choice and you learn an additional language. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Reborn, Aasimar, Genasi"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Racial",
+        "Flavour",
+        "Movement"
+      ],
+      "source": "OtherOrenth"
+    },
+    {
+      "name": "Radiance Bearer",
+      "entries": [
+        "You learn the Sacred Flame cantrip. Charisma is your spellcasting ability for this spell. Whenever you cast this cantrip you also cast Light on the creature if they failed the saving throw. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Aasimar"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum",
+        "Spellcasting",
+        "Offensive",
+        "Racial"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Celestial Affinity ",
+      "entries": [
+        "Your creature type becomes celestial. Additionally, your connection to bahamut gives you an intuitive understanding of people. You gain proficiency in one of the following skills: Persuasion, Medicine, Insight or History. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Centaur"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Racial Appropriation",
+      "entries": [
+        "Choose two tier 1 Orenth traits with different racial prerequisites. Whenever you Shapechange into one of these races you also gain access to the chosen Orenth trait tied to it. If they have a limited number of uses, you may use (both of) them a total number of times equal to your Charisma modifier every long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 1,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Changeling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Racial",
+        "Exploration",
+        "Roleplay"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
       "name": "Chaos Breath",
       "entries": [
         "Your Breath Weapon trait is replaced with the following trait:\nWhen you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 4 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\nYou can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
@@ -7520,7 +7932,7 @@
     {
       "name": "Lock Blades",
       "entries": [
-        "Choose a weapon that you have proficiency with that has the Versatile property. When a creature makes a weapon attack against you while you are wielding this weapon, you may use your reaction to attempt to lock blades and parry their attack. Make an attack roll with your weapon. You have advantage on this roll if you are wielding your weapon with two hands. If the result of this roll equals or exceeds their attack roll, their attack misses."
+        "Choose a weapon that you have proficiency with that has the Versatile property. When a creature makes a melee weapon attack against you while you are wielding this weapon, you may use your reaction to attempt to lock blades and parry their attack. Make an attack roll with your weapon. You have advantage on this roll if you are wielding your weapon with two hands. If the result of this roll equals or exceeds their attack roll, their attack misses."
       ],
       "prerequisite": [
         {
@@ -8385,2548 +8797,6 @@
       "source": "MetallicOrenth"
     },
     {
-      "name": "Chaos Rest",
-      "entries": [
-        "Whenever you take a short rest, roll thrice on the {@table Chaos Rest Table|oreorenth}. Each of the regional effects occur around you while you rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "25+ piety with Tiamat"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos",
-        "Defensive",
-        "Rest",
-        "Exploration",
-        "Piety"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Fivehead",
-      "entries": [
-        "5 times per Long Rest when you fail a saving throw you may add 1d4 to the roll, possibly turning it into a success.  "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "10+ piety with tiamat"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos",
-        "Defensive",
-        "Piety"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Chaotic Spellcasting",
-      "entries": [
-        "Instead of casting a specific spell you can also choose to roll a die. Pick a spell level and count how many spells of that level you have prepared that take an action to cast. Roll a die with that many faces and the spell that it lands on gets cast. The spell is cast as if it was cast with a spellslot level one higher than the one used. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Spellcasting or Pact Magic"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos",
-        "Spellcasting"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Dyslectik Spellcasting",
-      "entries": [
-        "Once per long rest when you cast a spell, you may change one letter of the spell, and the effect accordingly. The power of the spell remains approximately the same. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Spellcasting"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos",
-        "Spellcasting",
-        "Flavour"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Chromatic Snack Summoner",
-      "entries": [
-        "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Improved Elemental Spellcasting",
-      "entries": [
-        "Depending on your subrace you gain access to additional spells. You may cast these spells once per long rest and you use the same spellcasting ability as your other racial spells. You can also cast them with any spell slots of the appropriate level. If you have the Elemental Chaos or Mark of Tiamat Orenth Trait you may also choose the Chaos option. {@table Improved Elemental Spellcasting|oreorenth}"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Genasi"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Chaos"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Power from Wealth",
-      "entries": [
-        "For every 500 gp in gold coins you have on you (that is part of your personal wealth and not shared with anyone) during a long rest your current and maximum hit points increase by 1 to a maximum of twice your original maximum hp. This benefit lasts until the end of your next long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Fire",
-        "Defensive",
-        "Flavour",
-        "Rest"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Fire born of the Sun",
-      "entries": [
-        "You may pick a tier 3 Cosmic (Sun) Orenth trait. Additionally this trait counts as a tier 3 Cosmic Orenth trait for the purpose of gaining access to further orenth traits. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Fire",
-        "Meta"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Conductivity",
-      "entries": [
-        "As an action point towards a willing creature within 100 feet of you that has a Lightning Orenth trait. You cast Lightning Bolt in their direction, using Wisdom as your spellcasting ability, but the spell ends at their location and they aren't affected. You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest.  "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Lightning",
-        "Spellcasting",
-        "Offensive",
-        "Meta"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Acidous Weakness",
-      "entries": [
-        "Whenever you take slashing damage you may deal acid damage equal to twice your level to any creature of your choice within 10 feet of you. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Water",
-        "Offensive",
-        "Defensive"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Merciless Strikes",
-      "entries": [
-        "Whenever you hit a prone, unconscious or paralyzed creature with a weapon attack, you may deal additional fire damage to them equal to your Wisdom modifier.  "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery",
-        "Martial",
-        "Offensive"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Flying Charge",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Reach property. For every 10 feet you move straight toward a creature before hitting it with an attack with this weapon, the target takes an extra 1d6 damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Frozen Winds",
-      "entries": [
-        "Twice per turn when you push a creature you may deal 1d4 cold damage to the creature for every 10 feet you push them"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Wind",
-        "Offensive",
-        "Movement"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Relentless",
-      "entries": [
-        "Whenever you hit with a weapon attack you may choose to make an additional attack. You can keep making additional attacks until you miss with an attack roll, but each attack gets a cumulative -2 penalty to the attack roll. You may use this ability a number of times equal to your Wisdom modifier and regain all uses at the end of a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Wind"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Flyby",
-      "entries": [
-        "When you make a melee attack against a creature while flying, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Wind",
-        "Martial",
-        "Offensive",
-        "Defensive",
-        "Movement"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Elemental Spellcasting",
-      "entries": [
-        "Whenever you cast a spell that deals elemental damage you can choose to change the damage type to the damage type associated with your previous orenth trait. Whenever you cast a spell that deals the same damage as your previously chosen orenth trait you may deal an additional 1d6 damage of that type. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "A tier 2 fire, lightning, wood, water or cold orenth trait"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Chromatic Resistance",
-      "entries": [
-        "You gain resistance to fire, lightning, poison, acid or cold damage. Additionally, once on your turn you may deal additional damage equal to your proficiency bonus when you hit with an attack roll. The type of damage is the same as the one you have resistance to. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Jumping Spark",
-      "entries": [
-        "You gain the benefits of the {@optfeature Cleave| ingensorenth} Orenth trait. Before you make the second attack you may move 10 feet without provoking opportunity attacks or using your movement. You must end this movement in a place where you can reach your second target. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Jumping Lightning",
-      "entries": [
-        "You may move up to 15 feet whenever you use your Jumping Charge ability. Additionally, whenever you cleave attack hits you may move again and strike a different target. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Jumping Charge"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Synced Spellcasting",
-      "entries": [
-        "When a creature casts a spell within 60 feet of you that you have prepared, you can use your reaction to expend a spell slot to cast the same spell. The spell slot must be of the same or lower level as the triggering spell. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Interrupted Teleport",
-      "entries": [
-        "As a reaction to a creature teleporting within 60 feet of you can make an opposed Intelligence (Arcana) check against the teleporter. On a success you interrupt their teleport, causing them to only travel half the distance they intended to and taking 1d6 force damage for every 10 feet they intended to teleport (to a maximum number of dice equal to your level). On a success, they teleport successfully and only take half damage. You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Eldritch Doom",
-      "entries": [
-        "When you deal damage to a creature you can Doom them. While they are Doomed they take an additional 1d4 damage whenever they take damage. You may use this feature once per long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Swarm in disguise",
-      "entries": [
-        "You can occupy another creature's space and vice versa, and you can move through any opening large enough for a Tiny creature. You become resistant to bludgeoning, piercing and slashing damage. However, whenever you regain hit points or gain temporary hit points you only get half. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Horrific Jaw",
-      "entries": [
-        "You unhinge your jaw and attempt to swallow a creature whole. When you hit a creature of equal or smaller size than you with a bite attack, you may attempt to swallow it whole. It must succeed on a Dexterity saving throw (DC = 8+ your proficiency bonus + your Constitution modifier). On a failure, it gets swallowed into a pocket dimension, which it can attempt to escape at the end of each of its turns by repeating the saving throw, if it succeeds on a consequent turn it appears in an unoccupied space within 5 feet you. On a success, nothing happens. You may use this feature a number of times equal to your Constitution modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Ability to make a Bite attack"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Incomprehendable Mind",
-      "entries": [
-        "You become immune to psychic damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Demiplanar Stomach",
-      "entries": [
-        "Your mouth functions as a bag of holding. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Abberant"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Heat Stroke",
-      "entries": [
-        "As an action you can channel the exhaustive heat of the sun. For the next minute any creature of your choice that starts its turn within 10 feet of you must succeed on a Constitution saving throw (DC = 8+your Proficiency Bonus + your Constitution modifier). On a failure they gain a exhaustion levels equal to your proficiency bonus that while they are within 10 feet of you and your aura remains. On a success they become immune to the effect for the next hour. You may use this feature a number of times equal to your Constitution modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sun"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Burning Touch",
-      "entries": [
-        "Once per turn when you hit with an unarmed strike you may deal fire damage to the creature equal to your Proficiency bonus. Additionally whenever a creature starts its turn being grappled they also take fire damage equal to your Proficiency bonus. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sun"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Burned Memories of the Amnizu",
-      "entries": [
-        "Once per long rest you may cast Modify Memory using Charisma as your spellcasting ability. On a successful save the creature takes fire damage equal to twice your level. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sun"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Little sustenance needed",
-      "entries": [
-        "You can drink from a potion twice and get the full effect both times. Additionally you only need to drink and eat half as much. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Elf"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Shroud of the Wilderness",
-      "entries": [
-        "While you are in an area that is lightly obscured, you can Hide as a bonus action even if you are being directly observed."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Mask of the Wild"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Elf"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Goblin Magic",
-      "entries": [
-        "You are in tune with your Fey ancestry. You learn the Prestidigitation cantrip. In addition, once per turn when you hit a creature with a spell attack you can do 2d6 extra damage if an ally is within 5 feet of the target."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Goblin"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Gobos"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Efficiency of the Small",
-      "entries": [
-        "You have become efficient with managing your movements in battle. As a bonus action you can select two options from your Nimble Escape feature at the same time. If you have the Cunning Action feature you can also pick one of those options."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Goblin"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Gobos"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Goblin Ferocity",
-      "entries": [
-        "Your feral nature allows you to move faster. As a bonus action you can move up to your speed to a target. If you move 30 feet in a straight line you are allowed to make a weapon attack or unarmed strike as part of the Bonus Action. You may use this ability a number of times equal to your proficiency bonus and regain all uses after you finish a Long Rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Goblin"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Gobos"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Faster than your Shadow",
-      "entries": [
-        "You may make an opportunity attack against a creature moved forcefully. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Be a goblinoid"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Opportunity of Many",
-      "entries": [
-        "Choose a weapon you are proficient with that has the Two-Handed property. While flanking an opponent you get advantage on the attack roll when wielding this weapon."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Hobgoblin\nExclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery",
-        "Martial",
-        "Mastery",
-        "Offensive",
-        "Racial",
-        "Exclusive"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Master Fey Bargainer",
-      "entries": [
-        "Whenever you roll with advantage you roll three dice and take the highest one. Whenever you roll with disadvantage you roll three dice and the lowest one."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Expert Fey Bargainer |feyorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Improved Fey Steps",
-      "entries": [
-        "You have become more adept at using your Fey Steps casually. When you use your bonus action for Fey Steps you don’t provoke attacks of opportunity. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Fey Steps|feyorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "FeyOrenth"
-    },
-    {
-      "name": "Anti Parallel Timelines",
-      "entries": [
-        "Once per long rest as a reaction to taking damage you take no damage and gain a number of temporary hit points equal to the damage dealt instead. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Crystal"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Illusory Duplicates",
-      "entries": [
-        "At the start of your turn you may choose to create an illusory duplicate of yourself. Both versions of you can move up to your movement speed, but you share your action and bonus action. If you have the Extra Attack ability you can split the extra attack(s) between your two versions. At the end of your turn you decide which one is the real you and the duplicate dissapears. Both versions of you share the same hp pool, so whenever one takes damage the other takes the same damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Emerald"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Ruby Rest",
-      "entries": [
-        "Whenever you take a short rest you may choose two Gem Rest Orenth effects that remain active during your rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "10+ piety with Sardior"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Spooky Ghost Boy",
-      "entries": [
-        "Once per long rest you get a flying speed equal to your walking speed for the next minute, you can hover and you can move through creatures but not end your turn inside of them. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Reborn"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Old habits didn't die",
-      "entries": [
-        "Whenever you make an ability check have proficiency with you may choose to not roll and take 10 instead. You may do this a number of times equal to your Intelligence modifier and regain all uses after a Long Rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Reborn"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Sent with a mission from Sardior",
-      "entries": [
-        "You are so focused on your task given to you by Sardior you can't be distracted easily. You have advantage on Constitution saving throws made to maintain concentration and saving throws to avoid being charmed. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Reborn"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Dragonborn of Sardior",
-      "entries": [
-        "You count as every type of gem dragonborn for the sake of Orenth Prerequisites, and you do not need to meet any Sardior piety prerequisite. Additionally, you may pick a tier 2 Orenth trait"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Gem Dragonborn"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby",
-        "Racial",
-        "Meta",
-        "Piety"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Echolocation",
-      "entries": [
-        "You have blindsight out to 30 feet while you aren't deafened. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sapphire"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Shell Shock",
-      "entries": [
-        "Whenever you deal thunder damage to a creature you may force them to make a Constitution saving throw (DC=8+your your proficiency bonus + your Intelligence modifier). On a a failure they lose any bonus they had to their armour class due to natural armour until the end of your next turn. You may use this ability a number of times equal to your Intelligence modifier and regain all uses after you finish a Long Rest"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Sapphire"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Temporary Resurrection",
-      "entries": [
-        "When you reduce a creature to 0 hit points you may use your reaction to keep its corpse under your temporary control. The creature regains 1 hit point and becomes charmed by you until the end of your next turn. While charmed you can give it commands that it must obey (no action from you required). You may use this ability a number of times equal to your Intelligence modifier and regain all uses at the end of a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Topaz"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Drain its life",
-      "entries": [
-        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. After you use your Sap Orenth trait the creature only deals half damage on the next attack that hits. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Psionic Cleave",
-      "entries": [
-        "You get the benefits of the {@optfeature Cleave|ingensorenth} Orenth trait. Additionally, wheneveryou make the second attack, the second creature must be within 10 feet of the original but not necessarilily within your reach. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Transfer of Kinetic Energy",
-      "entries": [
-        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, whenever you reduce a creature's speed your own speed increases by 10 feet until the end of your turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Elegant Fighting",
-      "entries": [
-        "Pick one weapon that you have proficiency with that lacks the Finesse trait. This weapon is now considered a Finesse weapon when you wield it. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Mastery over Body and Mind",
-      "entries": [
-        "You gain the benefits of the {@optfeature Elegant Fighting|gemorenth} Orenth trait. Additionally, you may use your Intelligence instead of your Strength or Dexterity for attack and damage rolls when fighting with a Finesse weapon. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Cosmic Orenth Transmuter",
-      "entries": [
-        "As an action you can touch an aberration or fiend that has been killed within the last minute. It must have a minimum CR of 7. Over the course of the next hour the Cosmic Orenth of the creature is captured inside a newly created Gem Stalker of an appropriate colour. This Gem Stalker remains under your control for the next week, after which it learns the location of the nearest Gem Dragon that matches its type and comes under their control instead. You may only create a Gem Stalker in this way when you have none under your control."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Gem Snack Summoner",
-      "entries": [
-        "Once per long rest you can cast {@spell Summon Beast} at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Arcane Connection",
-      "entries": [
-        "You can cast any spell you can cast once per long rest because of a racial trait, once per short rest instead. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Gem Resistance",
-      "entries": [
-        "You gain resistance to one of the following pairs of damage types: force and psychic, thunder and lightning, psychic and fire, necrotic and acid, or cold and radiant damage. Additionally, whenever someone rolls for damage within 30 feet of you you may use your reaction to change the damage type to one of the ones you gained resistance to from this trait. You may use this reaction a number of times equal to your Intelligence modifier and regain all uses at the end of a Long Rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Induced Gravity",
-      "entries": [
-        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, any creature of your choice within 10 feet of the creature you slowed also has its speed reduced by 10 feet until the start of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Friendly Strikes",
-      "entries": [
-        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. Additionally, whenever you hit a creature you may choose to charm them instead. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Intelligence modifier). On a failed save they become charmed by you until the start of your next turn. On a successful save nothing happens (and they also don't gain disadvantage on their next attack against you). You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive, a Tier 1 Fey Orenth trait. "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Ruby Spellcasting",
-      "entries": [
-        "Whenever you use your Gem Spellcasting Orenth trait you may also regain a 2nd level spellslot. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "10+ piety with Sardior and a Gem Spellcasting Orenth trait. "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ruby"
-      ],
-      "source": "GemOrenth"
-    },
-    {
-      "name": "Induced Intoxication",
-      "entries": [
-        "The alcohol finally kicks in. As a bonus action you can gain the following effects. For the next hour, you have disadvantage on Intelligence and Wisdom ability checks and saving throws. Additionally, your current hit points and hit point maximum increase by an amount equal to your level, and you gain a number of temporary hit points equal to your constitution modifier at the start of each of your turns. It automatically activates when you drop to 0 hit points, but then you can't use it again until the end of your next long rest. You may use this ability once per Short Rest as long as you had alcohol during the short rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Dwarf"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Giant"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Iron Skin",
-      "entries": [
-        "Your skin hardens like iron, giving you resistance to bludgeoning, piercing or slashing damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Giant"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Grounded",
-      "entries": [
-        "As a reaction you can become immune to lightning damage until the end of your next turn. You may use this ability a number of times equal to your proficiency bonus and regain all uses at the end of a Long Rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Dwarf"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Giant"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Body Slam",
-      "entries": [
-        "While grappling a creature you may use the creature as a weapon. Your unarmed strikes against other creatures deal an additional 1d4 bludgeoning damage and whenever you hit a creature the creature you are grappling also takes 1d4 bludgeoning damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Goliath"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Giant",
-        "Martial",
-        "Offensive",
-        "Racial"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "It's the little things that count",
-      "entries": [
-        "You may pick 3 tier 1 Orenth traits of any type. These traits count as Ingens Orenth traits for you. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Little Folk"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Ooblek Armor",
-      "entries": [
-        "Whenever you take damage you may use your reaction to increase your AC by the number of damage dice dealt until the end of your next turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Oceanic"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Constricted Constrict",
-      "entries": [
-        "After you grapple a creature you may attempt to grapple the creature again, restraining the creature on a success. If the creature escapes your grapple the restrained condition also ends. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Constrict|ingensorenth} "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Oceanic",
-        "Martial",
-        "Offensive",
-        "Racial",
-        "Prereq"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Rapid Adaptation",
-      "entries": [
-        "As a reaction to taking damage you can become resistant to that damage until the end of your next turn. You may use this reaction a number of times equal to your Constitution modifier and regain all uses at the end of a Long Rest"
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Oobleck Armor|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Ooze",
-        "Defensive",
-        "Prereq"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Charge",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Heavy and Reach property. If you move at least 20 feet straight toward a creature before hitting it with an attack with this weapon, the target takes an extra 1d12 damage and must make a Strength saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failure, the target falls prone."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Graze",
-      "entries": [
-        "Choose a melee weapon that you have proficiency with that has the Heavy property. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can’t be increased in any way, other than increasing the ability modifier."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Nick",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn. \nIf you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Push",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Heavy, Two-Handed or Versatile Property. If you hit a creature with this weapon, you may push them up to 10 feet away from you horizontally, if it is no more than one size larger than you.  "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Topple",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Heavy, Reach or Versatile property. Once per turn when you hit a creature no more than one size larger than you with this weapon, you can force the creature to make a Strength saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failed save, the creature has the Prone condition."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Vex",
-      "entries": [
-        "Choose a weapon that you have proficiency with that has the Ammunition, Finesse, or Light property. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Deadliest Weapon",
-      "entries": [
-        "You gain a tier 2 Orenth trait with the Weapon Mastery subtype. Additionally, you may apply two different Orenth traits with the Exclusive prerequisite to the same weapon. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Bounce",
-      "entries": [
-        "You get the benefits of the {@optfeature Push|ingensorenth} Orenth trait, but instead of pushing the creature, you can decide to push yourself 10 feet in a direction of your choice instead. This movement does not provoke opportunity attacks. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive and Small size"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Shield and Sword",
-      "entries": [
-        "You get the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wearing a shield and using the weapon from your Flex Orenth trait you may add the shield's AC to the damage you deal with your Flex weapon. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Graze",
-      "entries": [
-        "Whenever you graze a creature you may apply damage bonuses such as sneak attack, smites and similar abilities that would trigger on a hit. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Graze|ingensorenth} "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Close Quarters Combat",
-      "entries": [
-        "The extra attack from your Close Quarters Combat Orenth trait no longer requires your bonus action or reaction, but you may still only use them once per turn. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Close Quarters Combat|ingensorenth} "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Charge",
-      "entries": [
-        "You only need to move 10 feet to use your Charge Orenth trait ability and the extra damage you deal increases to 2d12. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Charge|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Masterded: Nick",
-      "entries": [
-        "Whenever you use your Nick Orenth trait you can make two additional attacks instead of one. However, one of the attacks must deal just the weapon damage with no modifiers applied. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Nick|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Strangle",
-      "entries": [
-        "After you successfully grapple a creature with your Strangle Orenth Trait they gain disadvantage on Constitution saving throws for the next minute. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Strangle|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "1damage1dice",
-      "entries": [
-        "You gain the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wielding the weapon with two hands the damage die increases by one. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Weapon Mastered: Bloody Wound",
-      "entries": [
-        "The damage die for the bleeding damage becomes1d6. Additionally the DC for the medicine check becomes 8+your proficiency bonus + the ability used for the weapon attack. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Bloody Wound|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery",
-        "Martial",
-        "Mastery",
-        "Offensive",
-        "Exclusive"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Mixed Human Heritage",
-      "entries": [
-        "You may pick one racial feat for which you don't meet the requirements that gives you an ability score improvement. You don't gain the ability score improvement from the feat. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Human"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "The Stubbornest",
-      "entries": [
-        "Whenever you fail a saving throw you may choose to succeed it instead. You may use this ability a number of times equal to the amount of Orenth traits you have with stubborn in them and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Extremely Stubborn|ingensorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Adaptive Feats",
-      "entries": [
-        "Whenever you finish a long rest you may choose one feat of your choice and swap it out for a different one. You must meet the requirements for the replacement feat. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Human"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Jack",
-      "entries": [
-        "You gain a +1 bonus to ability checks you dont have proficiency in."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Human"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Stunning Question",
-      "entries": [
-        "You pose such a profound philosophical question that you stun a creature. Once per Long rest, as an action, you can target a creature that can hear you and that you share a language with. They must succeed on an Intelligence saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failure, they become stunned for one minute. They may repeat the saving throw at the start of their turns, ending the effect on a success. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Brass"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Endurance Fighting",
-      "entries": [
-        "Whenever you deal damage to a creature, and afterwards the creature has more hit points than you, you gain a number of temporary hit points equal to your Constitution modifier. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Bronze"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Shared Resistance",
-      "entries": [
-        "Any creature of your choice within 15 feet of you shares any resistance you have. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Bronze"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Saving expert",
-      "entries": [
-        "You may get expertise in saving throws. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Bronze",
-        "Defensive",
-        "Skill"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Bronze Saviour",
-      "entries": [
-        "Whenever a creature within 60 feet of you is about to hit a creature other than you, you may use your reaction to protect them before being struck down. You can give them a bonus to their AC equal to your Charisma modifier until the end of your next turn. You may use this ability a number of times equal to your Charisma modifier, and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Bronze"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Purposeful Knight",
-      "entries": [
-        "You designate a creature that needs to be vanquished as a Bonus Action. Until it is dead or a minute has passed you gain hit points equal to your Charisma modifier at the start of each of your turns you start within 10 feet of them. You may use this ability once per Long Rest."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Gold",
-        "Offensive",
-        "Defensive"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Platinum Rest",
-      "entries": [
-        "Whenever you take a short rest you may choose two Metallic rest Orenth effects that remain active during your rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "10+ piety with Bahamut"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Platinum"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Frozen Strikes",
-      "entries": [
-        "You get the benefits of the {@optfeature Slow|ingensorenth} Orenth trait, with the following change: There is no more limit to how much you can decrease a creature's speed. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Silver"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Exalting Breath",
-      "entries": [
-        "Whenever you use your breath weapon, you may choose any creature in the area that regains hit points equal to the damage dealt, instead of taking damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Silver Dragonborn "
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Silver",
-        "Defensive",
-        "Racial",
-        "Piety"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "No Escape",
-      "entries": [
-        "As a reaction to a creature leaving your reach you can choose to move with them as far as your movement allows. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery",
-        "Offensive",
-        "Movement"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Hands of Supreme Healing",
-      "entries": [
-        "You may roll d12s instead of d8s whenever you use your Healing Hands ability. Additionally you can use this trait thrice per short rest instead of once per long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "{@optfeature Hands of Superior Healing|metallicorenth}"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Celestial Body",
-      "entries": [
-        "You become immune to the effects of curses that can be removed with the remove curse spell. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Metallic Resistance",
-      "entries": [
-        "You gain resistance to fire, cold, lightning, acid or radiant damage. Additionally, whenever you take this type of damage, the creature that dealt the damage takes the same damage. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Shoveling Hands",
-      "entries": [
-        "Like the dragon you take after, you’ve got a knack for digging. You get a burrow speed equal to half your walking speed. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Kobold with ancestry of a dragon that can dig"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "Flexible Orenth",
-      "entries": [
-        "You may use any ability score to determine your save DC and number of times you can use an orenth trait. You also gain an additional use for any trait that recharges after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Kobold"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "OtherOrenth"
-    },
-    {
-      "name": "Dissuading Words",
-      "entries": [
-        "You gain the benefits of the {@optfeature Sap|ingengsorenth} Orenth trait. Additionally after you hit a creature they also have disadvantage on their next Wisdom Saving Throw. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Exclusive"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Weapon Mastery"
-      ],
-      "source": "MetallicOrenth"
-    },
-    {
-      "name": "School Mastered: Enchantment",
-      "entries": [
-        "Creatures no longer have advantage on saving throws against your enchantment spells if you are currently fighting them. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "Spell mastery with an Enchantment school spell."
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Spell Mastery"
-      ],
-      "source": "CosmicOrenth"
-    },
-    {
-      "name": "Summer Solstice",
-      "entries": [
-        "The summer solstice marks the longest day of the year, but also the day where the night start to grow longer. Over the course of a round keep track of the total number of hit points that were regained. For the purposes of this trait a round starts after your turn has ended. On your turn, when you deal damage to a creature you may deal additional radiant damage equal to the amount of hit points regained. You may use this trait a number of times equal to your Constitution modifier, and regain all uses after a long rest."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Winter Solstice",
-      "entries": [
-        "The Winter solstice marks the shortest day and longest night of the year, but also the day that the nights start to become shorter again. Over the course of a round keep track of the number of damage dice that were rolled. For the purposes of this trait a round starts after your turn has ended. On your turn, you may use your bonus action to heal a creature within 60 feet of you for a number of hit points equal to that amount. You may use this trait a number of times equal to your Constitution modifier and regain all uses after a long rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Giving Thanks",
-      "entries": [
-        "Whenever another creature gives you hitpoints, you may use your reaction to thank them. Until the end of their next turn they gain advantage on d20 checks. You may use this ability once per short rest. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
-      "name": "Golden Recovery",
-      "entries": [
-        "During a short rest you may consume goldpieces to recover a spellslot. The spellslot level is equal to the amount of gold a spellscroll of that level would cost, to a maximum of 5. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Spell Recovery",
-        "Martial",
-        "Spellcasting",
-        "Flavour",
-        "Rest"
-      ],
-      "source": "ChromaticOrenth"
-    },
-    {
-      "name": "Powerful Recovery",
-      "entries": [
-        "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a third level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 3,
-            "class": {
-              "name": "Tier"
-            }
-          }
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Spell Recovery",
-        "Spellcasting",
-        "Rest",
-        "Meta"
-      ],
-      "source": "OtherOrenth"
-    },
-    {
       "name": "Watery Dash",
       "entries": [
         "You gain the benefits of the {@optfeature Charge|ingensorenth} Orenth trait. Additionally while wielding this weapon you gain a swimming speed equal to twice your walking speed, but you can only move in a straight line and you get advantage on the attack while underwater. "
@@ -11569,6 +9439,3042 @@
       "source": "OtherOrenth"
     },
     {
+      "name": "Multitasking",
+      "entries": [
+        "Choose a spell of a level equal to your proficiency bonus divided by 3 (rounded down). Whenever you cast this spell it doesn't require concentration. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Surviving Summoner",
+      "entries": [
+        "Choose a spell that summons a creature. Whenever the creature you summoned is reduced to zero hit points it doesn't disappear, it instead falls unconscious and gets to make death saving throws. Only when it fails all death saves does it dissapear. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Defensive",
+        "Exclusive"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": " Active Concentration",
+      "entries": [
+        "Choose a spell that requires concentration. Instead of concentration on the spell you may instead use a bonus action on each of your turns the spell is active to keep the spell up. You immediately start concentrating on the spell when you don't use your bonus action on a turn for this purpose. You may still only have one concentration spell active at a time. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Winged Kobold",
+      "entries": [
+        "You gain a flying speed equal to half your walking speed. You cannot fly while wearing medium or heavy armour. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Be a White Kobold"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Metallic Kobold Summoner",
+      "entries": [
+        "After you finish a long rest you a number of Kobolds equal to your proficiency bonus appears. They are always charmed by you. The kobold can cast Healing Word once per long rest and take the help action as a bonus action. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Have only Metallic Tier 3 Traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum",
+        "Prereq",
+        "Rest",
+        "Roleplay",
+        "Meta"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Chromatic Kobold Summoner",
+      "entries": [
+        "After you finish a long rest you a number of Kobolds equal to your proficiency bonus appears. They are always charmed by you. Their Strength, Dexterity and Constitution score increases by 4. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Have only Chromatic Tier 3 Traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos",
+        "Prereq",
+        "Rest",
+        "Roleplay",
+        "Meta"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Gem Kobold Summoner",
+      "entries": [
+        "After you finish a long rest you a number of Kobolds equal to your proficiency bonus appears. They are always charmed by you. They can cast one cantrip of your choice, using their Intelligence as their spellcasting ability"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Have only Gem Tier 3 Traits"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby",
+        "Prereq",
+        "Rest",
+        "Roleplay",
+        "Meta"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Luckiest",
+      "entries": [
+        "When you roll a 2 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Martial",
+        "Offensive",
+        "Defensive",
+        "Racial",
+        "Prereq"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Precious Rings",
+      "entries": [
+        "You may attune to one additional magic item. This magic item must be a ring. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Spellcasting",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Fey Bargain: Flight",
+      "entries": [
+        "You gain a flying speed equal to your walking speed. However, whenever you end your turn more than 15 feet in the air you must make a Wisdom saving throw (DC=10+your proficiency bonus). On a failure you become frightened, making you unable to fly any higher until the condition ends. The condition ends when you land. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 4,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Hag ",
+        "Flavour",
+        "Movement"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Chaos Rest",
+      "entries": [
+        "Whenever you take a short rest, roll thrice on the {@table Chaos Rest Table|oreorenth}. Each of the regional effects occur around you while you rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "25+ piety with Tiamat"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos",
+        "Defensive",
+        "Rest",
+        "Exploration",
+        "Piety"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Fivehead",
+      "entries": [
+        "5 times per Long Rest when you fail a saving throw you may add 1d4 to the roll, possibly turning it into a success.  "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "10+ piety with tiamat"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos",
+        "Defensive",
+        "Piety"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Chaotic Spellcasting",
+      "entries": [
+        "Instead of casting a specific spell you can also choose to roll a die. Pick a spell level and count how many spells of that level you have prepared that take an action to cast. Roll a die with that many faces and the spell that it lands on gets cast. The spell is cast as if it was cast with a spellslot level one higher than the one used. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Spellcasting or Pact Magic"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos",
+        "Spellcasting"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Dyslectik Spellcasting",
+      "entries": [
+        "Once per long rest when you cast a spell, you may change one letter of the spell, and the effect accordingly. The power of the spell remains approximately the same. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Spellcasting"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos",
+        "Spellcasting",
+        "Flavour"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Chromatic Snack Summoner",
+      "entries": [
+        "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Improved Elemental Spellcasting",
+      "entries": [
+        "Depending on your subrace you gain access to additional spells. You may cast these spells once per long rest and you use the same spellcasting ability as your other racial spells. You can also cast them with any spell slots of the appropriate level. If you have the Elemental Chaos or Mark of Tiamat Orenth Trait you may also choose the Chaos option. {@table Improved Elemental Spellcasting|oreorenth}"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Genasi"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Chaos"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Power from Wealth",
+      "entries": [
+        "For every 500 gp in gold coins you have on you (that is part of your personal wealth and not shared with anyone) during a long rest your current and maximum hit points increase by 1 to a maximum of twice your original maximum hp. This benefit lasts until the end of your next long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Fire",
+        "Defensive",
+        "Flavour",
+        "Rest"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Fire born of the Sun",
+      "entries": [
+        "You may pick a tier 3 Cosmic (Sun) Orenth trait. Additionally this trait counts as a tier 3 Cosmic Orenth trait for the purpose of gaining access to further orenth traits. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Fire",
+        "Meta"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Conductivity",
+      "entries": [
+        "As an action point towards a willing creature within 100 feet of you that has a Lightning Orenth trait. You cast Lightning Bolt in their direction, using Wisdom as your spellcasting ability, but the spell ends at their location and they aren't affected. You may use this ability a number of times equal to your Wisdom modifier and regain all uses after a long rest.  "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Lightning",
+        "Spellcasting",
+        "Offensive",
+        "Meta"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Acidous Weakness",
+      "entries": [
+        "Whenever you take slashing damage you may deal acid damage equal to twice your level to any creature of your choice within 10 feet of you. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Water",
+        "Offensive",
+        "Defensive"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Merciless Strikes",
+      "entries": [
+        "Whenever you hit a prone, unconscious or paralyzed creature with a weapon attack, you may deal additional fire damage to them equal to your Wisdom modifier.  "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Martial",
+        "Offensive"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Flying Charge",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Reach property. For every 10 feet you move straight toward a creature before hitting it with an attack with this weapon, the target takes an extra 1d6 damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Frozen Winds",
+      "entries": [
+        "Twice per turn when you push a creature you may deal 1d4 cold damage to the creature for every 10 feet you push them"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind",
+        "Offensive",
+        "Movement"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Relentless",
+      "entries": [
+        "Whenever you hit with a weapon attack you may choose to make an additional attack. You can keep making additional attacks until you miss with an attack roll, but each attack gets a cumulative -2 penalty to the attack roll. You may use this ability a number of times equal to your Wisdom modifier and regain all uses at the end of a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Flyby",
+      "entries": [
+        "When you make a melee attack against a creature while flying, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind",
+        "Martial",
+        "Offensive",
+        "Defensive",
+        "Movement"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Elemental Spellcasting",
+      "entries": [
+        "Whenever you cast a spell that deals elemental damage you can choose to change the damage type to the damage type associated with your previous orenth trait. Whenever you cast a spell that deals the same damage as your previously chosen orenth trait you may deal an additional 1d6 damage of that type. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "A tier 2 fire, lightning, wood, water or cold orenth trait"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Chromatic Resistance",
+      "entries": [
+        "You gain resistance to fire, lightning, poison, acid or cold damage. Additionally, once on your turn you may deal additional damage equal to your proficiency bonus when you hit with an attack roll. The type of damage is the same as the one you have resistance to. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Jumping Spark",
+      "entries": [
+        "You gain the benefits of the {@optfeature Cleave| ingensorenth} Orenth trait. Before you make the second attack you may move 10 feet without provoking opportunity attacks or using your movement. You must end this movement in a place where you can reach your second target. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Jumping Lightning",
+      "entries": [
+        "You may move up to 15 feet whenever you use your Jumping Charge ability. Additionally, whenever you cleave attack hits you may move again and strike a different target. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Jumping Spark|chromaticorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Synced Spellcasting",
+      "entries": [
+        "When a creature casts a spell within 60 feet of you that you have prepared, you can use your reaction to expend a spell slot to cast the same spell. The spell slot must be of the same or lower level as the triggering spell. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Interrupted Teleport",
+      "entries": [
+        "As a reaction to a creature teleporting within 60 feet of you can make an opposed Intelligence (Arcana) check against the teleporter. On a success you interrupt their teleport, causing them to only travel half the distance they intended to and taking 1d6 force damage for every 10 feet they intended to teleport (to a maximum number of dice equal to your level). On a success, they teleport successfully and only take half damage. You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Eldritch Doom",
+      "entries": [
+        "When you deal damage to a creature you can Doom them. While they are Doomed they take an additional 1d4 damage whenever they take damage. You may use this feature once per long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Swarm in disguise",
+      "entries": [
+        "You can occupy another creature's space and vice versa, and you can move through any opening large enough for a Tiny creature. You become resistant to bludgeoning, piercing and slashing damage. However, whenever you regain hit points or gain temporary hit points you only get half. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Horrific Jaw",
+      "entries": [
+        "You unhinge your jaw and attempt to swallow a creature whole. When you hit a creature of equal or smaller size than you with a bite attack, you may attempt to swallow it whole. It must succeed on a Dexterity saving throw (DC = 8+ your proficiency bonus + your Constitution modifier). On a failure, it gets swallowed into a pocket dimension, which it can attempt to escape at the end of each of its turns by repeating the saving throw, if it succeeds on a consequent turn it appears in an unoccupied space within 5 feet you. On a success, nothing happens. You may use this feature a number of times equal to your Constitution modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Ability to make a Bite attack"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Incomprehendable Mind",
+      "entries": [
+        "You become immune to psychic damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Demiplanar Stomach",
+      "entries": [
+        "Your mouth functions as a bag of holding. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Abberant"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Heat Stroke",
+      "entries": [
+        "As an action you can channel the exhaustive heat of the sun. For the next minute any creature of your choice that starts its turn within 10 feet of you must succeed on a Constitution saving throw (DC = 8+your Proficiency Bonus + your Constitution modifier). On a failure they gain a exhaustion levels equal to your proficiency bonus that while they are within 10 feet of you and your aura remains. On a success they become immune to the effect for the next hour. You may use this feature a number of times equal to your Constitution modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sun"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Burning Touch",
+      "entries": [
+        "Once per turn when you hit with an unarmed strike you may deal fire damage to the creature equal to your Proficiency bonus. Additionally whenever a creature starts its turn being grappled they also take fire damage equal to your Proficiency bonus. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sun"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Burned Memories of the Amnizu",
+      "entries": [
+        "Once per long rest you may cast Modify Memory using Charisma as your spellcasting ability. On a successful save the creature takes fire damage equal to twice your level. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sun"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Little sustenance needed",
+      "entries": [
+        "You can drink from a potion twice and get the full effect both times. Additionally you only need to drink and eat half as much. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Elf"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Shroud of the Wilderness",
+      "entries": [
+        "While you are in an area that is lightly obscured, you can Hide as a bonus action even if you are being directly observed."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Wood Elf"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Elf"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Goblin Magic",
+      "entries": [
+        "You are in tune with your Fey ancestry. You learn the Prestidigitation cantrip. In addition, once per turn when you hit a creature with a spell attack you can do 2d6 extra damage if an ally is within 5 feet of the target."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Goblin"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Gobos"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Efficiency of the Small",
+      "entries": [
+        "You have become efficient with managing your movements in battle. As a bonus action you can select two options from your Nimble Escape feature at the same time. If you have the Cunning Action feature you can also pick one of those options."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Goblin"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Gobos"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Goblin Ferocity",
+      "entries": [
+        "Your feral nature allows you to move faster. As a bonus action you can move up to your speed to a target. If you move 30 feet in a straight line you are allowed to make a weapon attack or unarmed strike as part of the Bonus Action. You may use this ability a number of times equal to your proficiency bonus and regain all uses after you finish a Long Rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Goblin"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Gobos"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Faster than your Shadow",
+      "entries": [
+        "You may make an opportunity attack against a creature moved forcefully. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Be a goblinoid"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Opportunity of Many",
+      "entries": [
+        "Choose a weapon you are proficient with that has the Two-Handed property. While flanking an opponent you get advantage on the attack roll when wielding this weapon."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Hobgoblin\nExclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Martial",
+        "Mastery",
+        "Offensive",
+        "Racial",
+        "Exclusive"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Master Fey Bargainer",
+      "entries": [
+        "Whenever you roll with advantage you roll three dice and take the highest one. Whenever you roll with disadvantage you roll three dice and the lowest one."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Expert Fey Bargainer |feyorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Improved Fey Steps",
+      "entries": [
+        "You have become more adept at using your Fey Steps casually. When you use your bonus action for Fey Steps you don’t provoke attacks of opportunity. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Fey Steps|feyorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Anti Parallel Timelines",
+      "entries": [
+        "Once per long rest as a reaction to taking damage you take no damage and gain a number of temporary hit points equal to the damage dealt instead. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Crystal"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Illusory Duplicates",
+      "entries": [
+        "At the start of your turn you may choose to create an illusory duplicate of yourself. Both versions of you can move up to your movement speed, but you share your action and bonus action. If you have the Extra Attack ability you can split the extra attack(s) between your two versions. At the end of your turn you decide which one is the real you and the duplicate dissapears. Both versions of you share the same hp pool, so whenever one takes damage the other takes the same damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Emerald"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Ruby Rest",
+      "entries": [
+        "Whenever you take a short rest you may choose two Gem Rest Orenth effects that remain active during your rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "10+ piety with Sardior"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Spooky Ghost Boy",
+      "entries": [
+        "Once per long rest you get a flying speed equal to your walking speed for the next minute, you can hover and you can move through creatures but not end your turn inside of them. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Reborn"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Old habits didn't die",
+      "entries": [
+        "Whenever you make an ability check have proficiency with you may choose to not roll and take 10 instead. You may do this a number of times equal to your Intelligence modifier and regain all uses after a Long Rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Reborn"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Sent with a mission from Sardior",
+      "entries": [
+        "You are so focused on your task given to you by Sardior you can't be distracted easily. You have advantage on Constitution saving throws made to maintain concentration and saving throws to avoid being charmed. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Reborn"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Dragonborn of Sardior",
+      "entries": [
+        "You count as every type of gem dragonborn for the sake of Orenth Prerequisites, and you do not need to meet any Sardior piety prerequisite. Additionally, you may pick a tier 2 Orenth trait"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Gem Dragonborn"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby",
+        "Racial",
+        "Meta",
+        "Piety"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Echolocation",
+      "entries": [
+        "You have blindsight out to 30 feet while you aren't deafened. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sapphire"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Shell Shock",
+      "entries": [
+        "Whenever you deal thunder damage to a creature you may force them to make a Constitution saving throw (DC=8+your your proficiency bonus + your Intelligence modifier). On a a failure they lose any bonus they had to their armour class due to natural armour until the end of your next turn. You may use this ability a number of times equal to your Intelligence modifier and regain all uses after you finish a Long Rest"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Sapphire"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Temporary Resurrection",
+      "entries": [
+        "When you reduce a creature to 0 hit points you may use your reaction to keep its corpse under your temporary control. The creature regains 1 hit point and becomes charmed by you until the end of your next turn. While charmed you can give it commands that it must obey (no action from you required). You may use this ability a number of times equal to your Intelligence modifier and regain all uses at the end of a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Topaz"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Drain its life",
+      "entries": [
+        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. After you use your Sap Orenth trait the creature only deals half damage on the next attack that hits. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Psionic Cleave",
+      "entries": [
+        "You get the benefits of the {@optfeature Cleave|ingensorenth} Orenth trait. Additionally, wheneveryou make the second attack, the second creature must be within 10 feet of the original but not necessarilily within your reach. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Transfer of Kinetic Energy",
+      "entries": [
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, whenever you reduce a creature's speed your own speed increases by 10 feet until the end of your turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Elegant Fighting",
+      "entries": [
+        "Pick one weapon that you have proficiency with that lacks the Finesse trait. This weapon is now considered a Finesse weapon when you wield it. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Mastery over Body and Mind",
+      "entries": [
+        "You gain the benefits of the {@optfeature Elegant Fighting|gemorenth} Orenth trait. Additionally, you may use your Intelligence instead of your Strength or Dexterity for attack and damage rolls when fighting with a Finesse weapon. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Cosmic Orenth Transmuter",
+      "entries": [
+        "As an action you can touch an aberration or fiend that has been killed within the last minute. It must have a minimum CR of 7. Over the course of the next hour the Cosmic Orenth of the creature is captured inside a newly created Gem Stalker of an appropriate colour. This Gem Stalker remains under your control for the next week, after which it learns the location of the nearest Gem Dragon that matches its type and comes under their control instead. You may only create a Gem Stalker in this way when you have none under your control."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Gem Snack Summoner",
+      "entries": [
+        "Once per long rest you can cast {@spell Summon Beast} at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Arcane Connection",
+      "entries": [
+        "You can cast any spell you can cast once per long rest because of a racial trait, once per short rest instead. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Gem Resistance",
+      "entries": [
+        "You gain resistance to one of the following pairs of damage types: force and psychic, thunder and lightning, psychic and fire, necrotic and acid, or cold and radiant damage. Additionally, whenever someone rolls for damage within 30 feet of you you may use your reaction to change the damage type to one of the ones you gained resistance to from this trait. You may use this reaction a number of times equal to your Intelligence modifier and regain all uses at the end of a Long Rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Induced Gravity",
+      "entries": [
+        "You gain the benefits of the {@optfeature Slow|ingensorenth} Orenth trait. Additionally, any creature of your choice within 10 feet of the creature you slowed also has its speed reduced by 10 feet until the start of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Friendly Strikes",
+      "entries": [
+        "You gain the benefits of the {@optfeature Sap|ingensorenth} Orenth trait. Additionally, whenever you hit a creature you may choose to charm them instead. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Intelligence modifier). On a failed save they become charmed by you until the start of your next turn. On a successful save nothing happens (and they also don't gain disadvantage on their next attack against you). You may use this feature a number of times equal to your Intelligence modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive, a Tier 1 Fey Orenth trait. "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Ruby Spellcasting",
+      "entries": [
+        "Whenever you use your Gem Spellcasting Orenth trait you may also regain a 2nd level spellslot. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "10+ piety with Sardior and a Gem Spellcasting Orenth trait. "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ruby"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Induced Intoxication",
+      "entries": [
+        "The alcohol finally kicks in. As a bonus action you can gain the following effects. For the next hour, you have disadvantage on Intelligence and Wisdom ability checks and saving throws. Additionally, your current hit points and hit point maximum increase by an amount equal to your level, and you gain a number of temporary hit points equal to your constitution modifier at the start of each of your turns. It automatically activates when you drop to 0 hit points, but then you can't use it again until the end of your next long rest. You may use this ability once per Short Rest as long as you had alcohol during the short rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Dwarf"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Giant"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Iron Skin",
+      "entries": [
+        "Your skin hardens like iron, giving you resistance to bludgeoning, piercing or slashing damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Giant"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Grounded",
+      "entries": [
+        "As a reaction you can become immune to lightning damage until the end of your next turn. You may use this ability a number of times equal to your proficiency bonus and regain all uses at the end of a Long Rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Dwarf"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Giant"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Body Slam",
+      "entries": [
+        "While grappling a creature you may use the creature as a weapon. Your unarmed strikes against other creatures deal an additional 1d4 bludgeoning damage and whenever you hit a creature the creature you are grappling also takes 1d4 bludgeoning damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Goliath"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Giant",
+        "Martial",
+        "Offensive",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "It's the little things that count",
+      "entries": [
+        "You may pick 3 tier 1 Orenth traits of any type. These traits count as Ingens Orenth traits for you. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Ooblek Armor",
+      "entries": [
+        "Whenever you take damage you may use your reaction to increase your AC by the number of damage dice dealt until the end of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Oceanic"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Constricted Constrict",
+      "entries": [
+        "After you grapple a creature you may attempt to grapple the creature again, restraining the creature on a success. If the creature escapes your grapple the restrained condition also ends. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Constrict|ingensorenth} "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Oceanic",
+        "Martial",
+        "Offensive",
+        "Racial",
+        "Prereq"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Rapid Adaptation",
+      "entries": [
+        "As a reaction to taking damage you can become resistant to that damage until the end of your next turn. You may use this reaction a number of times equal to your Constitution modifier and regain all uses at the end of a Long Rest"
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Oobleck Armor|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Ooze",
+        "Defensive",
+        "Prereq"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Charge",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Heavy and Reach property. If you move at least 20 feet straight toward a creature before hitting it with an attack with this weapon, the target takes an extra 1d12 damage and must make a Strength saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failure, the target falls prone."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Graze",
+      "entries": [
+        "Choose a melee weapon that you have proficiency with that has the Heavy property. If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can’t be increased in any way, other than increasing the ability modifier."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Nick",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. \nIf you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. \nYou can still make this extra attack only once per turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Push",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Heavy, Two-Handed or Versatile Property. If you hit a creature with this weapon, you may push them up to 10 feet away from you horizontally, if it is no more than one size larger than you.  "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Topple",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Heavy, Reach or Versatile property. Once per turn when you hit a creature no more than one size larger than you with this weapon, you can force the creature to make a Strength saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failed save, the creature has the Prone condition."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Vex",
+      "entries": [
+        "Choose a weapon that you have proficiency with that has the Ammunition, Finesse, or Light property. If you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Deadliest Weapon",
+      "entries": [
+        "You gain a tier 2 Orenth trait with the Weapon Mastery subtype. Additionally, you may apply two different Orenth traits with the Exclusive prerequisite to the same weapon. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Bounce",
+      "entries": [
+        "You get the benefits of the {@optfeature Push|ingensorenth} Orenth trait, but instead of pushing the creature, you can decide to push yourself 10 feet in a direction of your choice instead. This movement does not provoke opportunity attacks. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive and Small size"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Shield and Sword",
+      "entries": [
+        "You get the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wearing a shield and using the weapon from your Flex Orenth trait you may add the shield's AC to the damage you deal with your Flex weapon. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Graze",
+      "entries": [
+        "Whenever you graze a creature you may apply damage bonuses such as sneak attack, smites and similar abilities that would trigger on a hit. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Graze|ingensorenth} "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Close Quarters Combat",
+      "entries": [
+        "The extra attack from your Close Quarters Combat Orenth trait no longer requires your bonus action or reaction, but you may still only use them once per turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Close Quarters Combat|ingensorenth} "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Charge",
+      "entries": [
+        "You only need to move 10 feet to use your Charge Orenth trait ability and the extra damage you deal increases to 2d12. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Charge|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Masterded: Nick",
+      "entries": [
+        "Whenever you use your Nick Orenth trait you can make two additional attacks instead of one. However, one of the attacks must deal just the weapon damage with no modifiers applied. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Nick|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Strangle",
+      "entries": [
+        "After you successfully grapple a creature with your Strangle Orenth Trait they gain disadvantage on Constitution saving throws for the next minute. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Strangle|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "1damage1dice",
+      "entries": [
+        "You gain the benefits of the {@optfeature Flex|ingensorenth} Orenth trait. Additionally, while wielding the weapon with two hands the damage die increases by one. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Weapon Mastered: Bloody Wound",
+      "entries": [
+        "The damage die for the bleeding damage becomes 1d6. Additionally the DC for the medicine check becomes 8+your proficiency bonus + the ability used for the weapon attack. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Bloody Wound|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Martial",
+        "Mastery",
+        "Offensive",
+        "Exclusive"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Mixed Human Heritage",
+      "entries": [
+        "You may pick one racial feat for which you don't meet the requirements that gives you an ability score improvement. You don't gain the ability score improvement from the feat. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Human"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "The Stubbornest",
+      "entries": [
+        "Whenever you fail a saving throw you may choose to succeed it instead. You may use this ability a number of times equal to the amount of Orenth traits you have with stubborn in them and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Extremely Stubborn|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Adaptive Feats",
+      "entries": [
+        "Whenever you finish a long rest you may choose one feat of your choice and swap it out for a different one. You must meet the requirements for the replacement feat. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Human"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Jack",
+      "entries": [
+        "You gain a +1 bonus to ability checks you dont have proficiency in."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Human"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Stunning Question",
+      "entries": [
+        "You pose such a profound philosophical question that you stun a creature. Once per Long rest, as an action, you can target a creature that can hear you and that you share a language with. They must succeed on an Intelligence saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failure, they become stunned for one minute. They may repeat the saving throw at the start of their turns, ending the effect on a success. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Brass"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Endurance Fighting",
+      "entries": [
+        "Whenever you deal damage to a creature, and afterwards the creature has more hit points than you, you gain a number of temporary hit points equal to your Constitution modifier. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Bronze"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Shared Resistance",
+      "entries": [
+        "Any creature of your choice within 15 feet of you shares any resistance you have. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Bronze"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Saving expert",
+      "entries": [
+        "You may get expertise in saving throws. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Bronze",
+        "Defensive",
+        "Skill"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Bronze Saviour",
+      "entries": [
+        "Whenever a creature within 60 feet of you is about to hit a creature other than you, you may use your reaction to protect them before being struck down. You can give them a bonus to their AC equal to your Charisma modifier until the end of your next turn. You may use this ability a number of times equal to your Charisma modifier, and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Bronze"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Purposeful Knight",
+      "entries": [
+        "You designate a creature that needs to be vanquished as a Bonus Action. Until it is dead or a minute has passed you gain hit points equal to your Charisma modifier at the start of each of your turns you start within 10 feet of them. You may use this ability once per Long Rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Gold",
+        "Offensive",
+        "Defensive"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Platinum Rest",
+      "entries": [
+        "Whenever you take a short rest you may choose two Metallic rest Orenth effects that remain active during your rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "10+ piety with Bahamut"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Frozen Strikes",
+      "entries": [
+        "You get the benefits of the {@optfeature Slow|ingensorenth} Orenth trait, with the following change: There is no more limit to how much you can decrease a creature's speed. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Silver"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Exalting Breath",
+      "entries": [
+        "Whenever you use your breath weapon, you may choose any creature in the area that regains hit points equal to the damage dealt, instead of taking damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Silver Dragonborn "
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Silver",
+        "Defensive",
+        "Racial",
+        "Piety"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "No Escape",
+      "entries": [
+        "As a reaction to a creature leaving your reach you can choose to move with them as far as your movement allows. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Offensive",
+        "Movement"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Hands of Supreme Healing",
+      "entries": [
+        "You may roll d12s instead of d8s whenever you use your Healing Hands ability. Additionally you can use this trait thrice per short rest instead of once per long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Hands of Superior Healing|metallicorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Celestial Body",
+      "entries": [
+        "You become immune to the effects of curses that can be removed with the remove curse spell. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Metallic Resistance",
+      "entries": [
+        "You gain resistance to fire, cold, lightning, acid or radiant damage. Additionally, whenever you take this type of damage, the creature that dealt the damage takes the same damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Shoveling Hands",
+      "entries": [
+        "Like the dragon you take after, you’ve got a knack for digging. You get a burrow speed equal to half your walking speed. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Kobold with ancestry of a dragon that can dig"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Flexible Orenth",
+      "entries": [
+        "You may use any ability score to determine your save DC and number of times you can use an orenth trait. You also gain an additional use for any trait that recharges after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Kobold"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "OtherOrenth"
+    },
+    {
+      "name": "Dissuading Words",
+      "entries": [
+        "You gain the benefits of the {@optfeature Sap|ingengsorenth} Orenth trait. Additionally after you hit a creature they also have disadvantage on their next Wisdom Saving Throw. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "School Mastered: Enchantment",
+      "entries": [
+        "Creatures no longer have advantage on saving throws against your enchantment spells if you are currently fighting them. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Spell mastery with an Enchantment school spell."
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Summer Solstice",
+      "entries": [
+        "The summer solstice marks the longest day of the year, but also the day where the night start to grow longer. Over the course of a round keep track of the total number of hit points that were regained. For the purposes of this trait a round starts after your turn has ended. On your turn, when you deal damage to a creature you may deal additional radiant damage equal to the amount of hit points regained. You may use this trait a number of times equal to your Constitution modifier, and regain all uses after a long rest."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Winter Solstice",
+      "entries": [
+        "The Winter solstice marks the shortest day and longest night of the year, but also the day that the nights start to become shorter again. Over the course of a round keep track of the number of damage dice that were rolled. For the purposes of this trait a round starts after your turn has ended. On your turn, you may use your bonus action to heal a creature within 60 feet of you for a number of hit points equal to that amount. You may use this trait a number of times equal to your Constitution modifier and regain all uses after a long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Giving Thanks",
+      "entries": [
+        "Whenever another creature gives you hitpoints, you may use your reaction to thank them. Until the end of their next turn they gain advantage on d20 checks. You may use this ability once per short rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Golden Recovery",
+      "entries": [
+        "During a short rest you may consume goldpieces to recover a spellslot. The spellslot level is equal to the amount of gold a spellscroll of that level would cost, to a maximum of 5. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Recovery",
+        "Martial",
+        "Spellcasting",
+        "Flavour",
+        "Rest"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Powerful Recovery",
+      "entries": [
+        "Choose a tier 1 Orenth trait that gives you a first level spellslot back. You may instead get a third level spellslot back. The orenth type of this trait is the same as the tier 1 trait you choose.  You cannot choose the same tier 1 trait in this way twice."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Recovery",
+        "Spellcasting",
+        "Rest",
+        "Meta"
+      ],
+      "source": "OtherOrenth"
+    },
+    {
+      "name": "Concentrated",
+      "entries": [
+        "Choose a spell that requires concentration. Whenever you need to make a Constitution saving throw to keep concentrating on this spell, you may add your spellcasting ability modifier to the save. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Defensive",
+        "Exclusive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Must have been the wind",
+      "entries": [
+        "If you make an attack roll while hidden and miss, you don't lose the Hidden condition. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "{@optfeature Where did that come from|ingensorenth}"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial",
+        "Movement",
+        "Piety"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Gem Ancestry",
+      "entries": [
+        "You have advantage on Intelligence, Wisdom and Charisma saving throws made against Spells. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Bugbear or Hobgoblin"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Suprise Spellcasting",
+      "entries": [
+        "If a creature fails a saving throw against a spell you cast and takes damage, the creature takes an extra 2d6 of the spells damage if they haven't taken a turn yet in the current combat. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Bugbear"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Amethyst"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Locked Wings",
+      "entries": [
+        "Your flying speed increases by 5 feet. Additionally, while flying you may dash as a bonus action, but when you dash in this way you can only move in a straight line on that turn. You cannot gain levels of exhaustion from dashing in this way. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Aarakocra"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Wind",
+        "Racial",
+        "Exploration",
+        "Movement"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Holy Hooves",
+      "entries": [
+        "Your hooves are considered Heavy, two-handed weapons. Additionaly, whenever you hit a creature with your hooves you may add 1d4 radiant damage to the hit. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Centaur"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Mental Shapechanger",
+      "entries": [
+        "Whenever you change into a different race, you also learn to speak and understand the language most commonly spoken by that race while you remain shapechanged. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Changeling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
+      "name": "Cosmic Magic Resistance",
+      "entries": [
+        "You have advantage on saving throws against spells. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Deep Gnome"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Cosmically Infused",
+      "entries": [
+        "Your creature type becomes abberation. Additionally you gain advantage on Intelligence, Wisdom, and Charisma saving throws against spells. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Duergar"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spellcasting",
+        "Defensive",
+        "Racial",
+        "Flavour"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
       "name": "Animating Breaths",
       "entries": [
         "Instead of using your Breath Weapon, you may instead spend 4 uses of it to summon an {@creature Animated Breath|ftd} related to your Chromatic ancestry. The Animated Breath is under your control and you can command it (no action required). It remains for 10 minutes. "
@@ -11832,9 +12738,36 @@
       "source": "OtherOrenth"
     },
     {
-      "name": "Chaotic Recovery",
+      "name": "Exhaustive Magic",
       "entries": [
-        "Whenever you cast a first level spell roll 1d4. If you roll a 1 you do not expend a spellslot and you must roll on the wild magic table. "
+        "Choose a first spell. You can cast this spell without expending a spellslot, but whenever you do you must make a Constitution saving throw (DC = 15). On a failure you gain one level of exhaustion. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "ChromaticOrenth"
+    },
+    {
+      "name": "Don't wake the Cosmic Horrors!",
+      "entries": [
+        "Whenever you cast a spell with your Gift of the Svirfneblin or Duergar Magic trait you may do so without using any spell components. "
       ],
       "prerequisite": [
         {
@@ -11843,16 +12776,18 @@
             "class": {
               "name": "Tier"
             }
-          }
+          },
+          "feature": [
+            "Deep Gnome or Duergar"
+          ]
         }
       ],
       "featureType": [
         "ORE",
-        "Spell Recovery",
         "Spellcasting",
-        "Rest"
+        "Racial"
       ],
-      "source": "ChromaticOrenth"
+      "source": "CosmicOrenth"
     },
     {
       "name": "Shiny Scales",
@@ -12476,9 +13411,527 @@
       "source": "OtherOrenth"
     },
     {
+      "name": "Pure Casting",
+      "entries": [
+        "Choose a levelled spell that requires a saving throw. Whenever you cast this spell on a creature they must use their ability score for the save instead, instead of any saving throw proficiency they might have. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Offensive",
+        "Exclusive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Consistent Casting",
+      "entries": [
+        "Choose a spell that requires a spell attack roll. Whenever you have disadvantage on your spell attack with this spell, you instead roll normally."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Offensive",
+        "Exclusive"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Consentual Casting",
+      "entries": [
+        "Choose a spell with a range of self. The range of this spell is now touch."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Lingering Spell",
+      "entries": [
+        "Choose a spell that requires concentration. Whenever your concentration on this spell ends, it lasts until the end of your next turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Exclusive"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Spell Mastery",
+        "Spellcasting",
+        "Mastery",
+        "Exclusive"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Peekaboo",
+      "entries": [
+        "You may hide as a bonus action while you're obscured only by a creature one size larger than you. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Lightfoot Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Defensive",
+        "Racial",
+        "Exploration",
+        "Movement",
+        "Piety"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Fastball Special",
+      "entries": [
+        "While standing next to an ally with a Strength of 15 or greater they can use their reaction to throw you up to 30 feet. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial",
+        "Movement"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Half luck, Half skill",
+      "entries": [
+        "Whenever you reroll a 1 on a d20 check using Lucky you may still gain inspiration while using the new roll."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Where did that come from",
+      "entries": [
+        "If you make an attack roll while hidden and miss, you don't loose the Hidden condition until the end of your turn. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Racial",
+        "Exclusive",
+        "Movement"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Long Limbed Spellcasting",
+      "entries": [
+        "Whenever you cast a spell with a range of touch on your turn, the range becomes 15 feet. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Bugbear"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Amethyst",
+        "Spellcasting",
+        "Racial"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Transmuted Arms",
+      "entries": [
+        "Once on each of your turns when you make a melee attack you may increase your range by 30 feet. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Bugbear"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Amethyst",
+        "Mastery",
+        "Offensive",
+        "Racial"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Lucky I prepared that!",
+      "entries": [
+        "Whenever you finish a long rest you may forgo one of your spell preparations. At any point you may then as a reaction you may then choose any spell from your spell list(s) as long as you have the spell slots of the level and prepare it, until your next long rest you have access to this spell and cast it as normal."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Halfling, prepared spellcasting"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Little Folk",
+        "Spellcasting",
+        "Racial"
+      ],
+      "source": "IngensOrenth"
+    },
+    {
+      "name": "Fiersome Natural Weapons",
+      "entries": [
+        "You may apply one of the following traits to your natural weapons: Light and Finesse."
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "A racial natural weapon"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Weapon Mastery",
+        "Martial",
+        "Offensive",
+        "Racial"
+      ],
+      "source": "OtherOrenth"
+    },
+    {
+      "name": "Bahamut's Chosen",
+      "entries": [
+        "You have advantage on Charisma checks made to interact with creatures that have Metallic Orenth. You also have advantage on Charisma (Intimidation) checks made to interact with creatures that have Chromatic Orenth. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Aasimar"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Eyes of Bahamut",
+      "entries": [
+        "Whenever you use your Celestial Revelation trait you also gain Truesight with a range 30 feet for the next minute. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Aasimar"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum",
+        "Spellcasting",
+        "Racial",
+        "Exclusive",
+        "Exploration"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Protective Mount",
+      "entries": [
+        "Medium creatures may use you as a mount. Additionally, any creature that uses you as a mount may add your Charisma modifier to any saving throw they make. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Centaur"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Manouvarable Mount",
+      "entries": [
+        "Medium creatures may use you as a mount. Additionally, the creature mounting you may forgo using their movement on their turn, allowing you to move up to your speed as a reaction. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Centaur"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Platinum"
+      ],
+      "source": "MetallicOrenth"
+    },
+    {
+      "name": "Perfect Camouflage",
+      "entries": [
+        "Whenever you successfully hide in rocky terrain, fully exposing yourself to a person doesn't end the hide condition as long as you are within 5 feet of a stone surface. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Deep Gnome"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Skill",
+        "Racial",
+        "Flavour"
+      ],
+      "source": "CosmicOrenth"
+    },
+    {
+      "name": "Fairy Psionics",
+      "entries": [
+        "Whenever you finish a long rest you may replace any spell you have access to through Fairy Magic with an enchantment spell of the same level of your choice. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          },
+          "feature": [
+            "Fairy"
+          ]
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Jade"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Time Enchantments",
+      "entries": [
+        "Whenever a creature fails a saving throw against an enchantment spell within 30 feet of you, you may use your reaction to roll on the {@table Messed Up Time Table|oreorenth}, applying the effect to them until the spell cast on them ends. You may use this feature once per Long rest. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Jade",
+        "Spellcasting",
+        "Offensive"
+      ],
+      "source": "GemOrenth"
+    },
+    {
+      "name": "Fey Bargain: Pyromancer",
+      "entries": [
+        "Whenever you hit with a weapon attack you deal an additional 1d4 fire damage. However, you also gain vulnerability to cold damage. "
+      ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Tier"
+            }
+          }
+        }
+      ],
+      "featureType": [
+        "ORE",
+        "Hag ",
+        "Offensive"
+      ],
+      "source": "FeyOrenth"
+    },
+    {
       "name": "Quick Rebuttal",
       "entries": [
-        "You gain the benefits of the Lock Blades Orenth trait. Additionally, whenever you beat the attacker's attack roll by more than 5 you may deal damage to them equal to the ability score modifier used to parry the attack. The damage type is that of your weapon. "
+        "You gain the benefits of the {@optfeature Lock Blades|ingensorenth} Orenth trait. Additionally, whenever you beat the attacker's attack roll by more than 5 you may deal damage to them equal to the ability score modifier used to parry the attack. The damage type is that of your weapon. "
       ],
       "prerequisite": [
         {
