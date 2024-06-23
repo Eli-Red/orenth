@@ -110,7 +110,7 @@ function convert(result, filename) {
   if (result.Prerequisite) {
     optFeature.prerequisite = [{ level, feature: [result.Prerequisite] }];
   } else {
-    optFeature.prerequisite = [{ level }];
+    optFeature.prerequisite = [{ level, feature: ["None"] }];
   }
 
   optFeature.featureType = ["ORE"];
