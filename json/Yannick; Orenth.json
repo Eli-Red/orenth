@@ -761,7 +761,8 @@
     {
       "name": "Warrior of Wind",
       "entries": [
-        "Whenever you hit a creature that is no more than 1 size larger than you with a melee weapon attack or unarmed strike, you may choose to push it 15 feet in a horizontal direction of your choosing.\nYou may use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all uses at the end of a long rest."
+        "Whenever you hit a creature that is no more than 1 size larger than you with a melee weapon attack or unarmed strike, you may choose to push it 15 feet in a horizontal direction of your choosing.",
+        "You may use this feature a number of times equal to your Wisdom modifier (minimum of once) and regain all uses at the end of a long rest."
       ],
       "prerequisite": [
         {
@@ -1132,7 +1133,8 @@
     {
       "name": "Explosive Crits",
       "entries": [
-        "Your mastery over your weapon grants you greater efficiency when perfectly striking your opponents. \nWhen you crit with a weapon that a Weapon Mastery Orenth trait applies to, your dice can explode, meaning when you roll maximum damage on a die you can roll an additional damage die of the same value."
+        "Your mastery over your weapon grants you greater efficiency when perfectly striking your opponents. ",
+        "When you crit with a weapon that a Weapon Mastery Orenth trait applies to, your dice can explode, meaning when you roll maximum damage on a die you can roll an additional damage die of the same value."
       ],
       "prerequisite": [
         {
@@ -1429,7 +1431,8 @@
     {
       "name": "Weird Magic",
       "entries": [
-        "When a creature casts a spell within 60 feet of you, you may use your reaction to disturb the spell. Roll on the {@table Weird magic table|oreorenth}. The result of your roll applies to the spell cast.\nYou may use this trait a number of times equal to your Charisma modifier and regain all uses you finish a long rest. "
+        "When a creature casts a spell within 60 feet of you, you may use your reaction to disturb the spell. Roll on the {@table Weird magic table|oreorenth}. The result of your roll applies to the spell cast.",
+        "You may use this trait a number of times equal to your Charisma modifier and regain all uses you finish a long rest. "
       ],
       "prerequisite": [
         {
@@ -1559,7 +1562,8 @@
     {
       "name": "Fey Blood",
       "entries": [
-        "If you have the Fey Ancestry trait your creature type becomes fey. If your creature type is fey you gain the Fey Ancestry trait: \r\nYou have advantage on saving throws you make to avoid or end the charmed condition on yourself.\r"
+        "If you have the Fey Ancestry trait your creature type becomes fey. If your creature type is fey you gain the Fey Ancestry trait: \r",
+        "You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\r"
       ],
       "prerequisite": [
         {
@@ -1844,7 +1848,8 @@
     {
       "name": "Mental Prowess Estimation",
       "entries": [
-        "As a bonus action you can observe the behaviour of a creature to get a sense of their mental state. Make an Intelligence (Insight) check against their Charisma score. On a success you learn which of their mental ability scores is the highest and which is the lowest, and whether they have proficiency in any mental saving throws.\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+        "As a bonus action you can observe the behaviour of a creature to get a sense of their mental state. Make an Intelligence (Insight) check against their Charisma score. On a success you learn which of their mental ability scores is the highest and which is the lowest, and whether they have proficiency in any mental saving throws.",
+        "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
         {
@@ -1976,7 +1981,13 @@
     {
       "name": "Send them to Sardior",
       "entries": [
-        "Whenever you reduce a creature to 0 hit points you may choose to have one of the following things happen, depending on the creature's alignment. You may choose which alignment if the creature has multiple, such as Chaotic Good. \nGood: Any creature of your choice within 15 feet of the creature that died gains temporary hit points equal to your Intelligence modifier. \nEvil: Any creature of your choice within 15 feet of the creature that died takes necrotic damage equal to your Intelligence modifier. \nNeutral: A creature of your choice within 30 feet of the creature that died can cast a cantrip with a casting time of one action, as a reaction. \nChaotic: A creature of your choice within 30 feet of the creature that must immediately use its reaction to make a melee attack against a creature within 5 feet of it. \nUnaligned: A familiar appears in the dead creature's space as if you had cast find familiar. The familiar is undead and remains for 10 minutes. \nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest. After the effect ends the soul of the creature safely passes to Sardior. "
+        "Whenever you reduce a creature to 0 hit points you may choose to have one of the following things happen, depending on the creature's alignment. You may choose which alignment if the creature has multiple, such as Chaotic Good. ",
+        "Good: Any creature of your choice within 15 feet of the creature that died gains temporary hit points equal to your Intelligence modifier. ",
+        "Evil: Any creature of your choice within 15 feet of the creature that died takes necrotic damage equal to your Intelligence modifier. ",
+        "Neutral: A creature of your choice within 30 feet of the creature that died can cast a cantrip with a casting time of one action, as a reaction. ",
+        "Chaotic: A creature of your choice within 30 feet of the creature that must immediately use its reaction to make a melee attack against a creature within 5 feet of it. ",
+        "Unaligned: A familiar appears in the dead creature's space as if you had cast find familiar. The familiar is undead and remains for 10 minutes. ",
+        "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest. After the effect ends the soul of the creature safely passes to Sardior. "
       ],
       "prerequisite": [
         {
@@ -2244,7 +2255,8 @@
     {
       "name": "Kobold maleability",
       "entries": [
-        "Whenever you finish a short rest in an area where a dragon's presence has an effect on the environment, you may choose to change one of your Orenth traits to one connected to that dragon type. You cannot change this trait in this way.\nAdditionally you more easily blend in with other kobolds. You have advantage on Dexterity (Stealth) and Charisma (Deception) checks made to convince others that you are a different kind of kobold."
+        "Whenever you finish a short rest in an area where a dragon's presence has an effect on the environment, you may choose to change one of your Orenth traits to one connected to that dragon type. You cannot change this trait in this way.",
+        "Additionally you more easily blend in with other kobolds. You have advantage on Dexterity (Stealth) and Charisma (Deception) checks made to convince others that you are a different kind of kobold."
       ],
       "prerequisite": [
         {
@@ -2473,7 +2485,14 @@
     {
       "name": "Craft of the Giants",
       "entries": [
-        "Your connection to giants grants you the power to forge and create. Depending on the type of Giant you are connected to you choose one proficiency in an associated tool. If you already have proficiency with this tool your Proficiency Bonus is doubled. \n\nFire: Smith’s Tools\nCloud: Gaming Set, Calligrapher's Tools\nFrost: Cobbler’s Tools, Leatherworker’s Tools\nStone: Mason’s Tools \nHill: Cook’s Utensils\nStorm: Navigator’s Tools, Cartographer’s Tools, Water Vehicles"
+        "Your connection to giants grants you the power to forge and create. Depending on the type of Giant you are connected to you choose one proficiency in an associated tool. If you already have proficiency with this tool your Proficiency Bonus is doubled. ",
+        "",
+        "Fire: Smith’s Tools",
+        "Cloud: Gaming Set, Calligrapher's Tools",
+        "Frost: Cobbler’s Tools, Leatherworker’s Tools",
+        "Stone: Mason’s Tools ",
+        "Hill: Cook’s Utensils",
+        "Storm: Navigator’s Tools, Cartographer’s Tools, Water Vehicles"
       ],
       "prerequisite": [
         {
@@ -3523,7 +3542,10 @@
     {
       "name": "Improved Celestial Revelation",
       "entries": [
-        "You gain the following benefit, depending on your chosen revelation: \r\nNecrotic Shroud: You can frighten creatures up to 20 feet away and you may deal radiant damage instead of necrotic damage. \r\nRadiant Consumption: The aura’s size increases to 20 feet and you can choose to exclude a number of creatures equal to your Charisma modifier, who won’t take the damage. \r\nRadiant Soul: Your flying speed increases by 20 feet.\r"
+        "You gain the following benefit, depending on your chosen revelation: \r",
+        "Necrotic Shroud: You can frighten creatures up to 20 feet away and you may deal radiant damage instead of necrotic damage. \r",
+        "Radiant Consumption: The aura’s size increases to 20 feet and you can choose to exclude a number of creatures equal to your Charisma modifier, who won’t take the damage. \r",
+        "Radiant Soul: Your flying speed increases by 20 feet.\r"
       ],
       "prerequisite": [
         {
@@ -3729,7 +3751,8 @@
     {
       "name": "Rope Capture",
       "entries": [
-        "On your turn you may use 15 feet of rope to wrap a creature up. You must use your movement to fully loop around the creature, ending the movement in the place you started. You can then use your bonus action to try and tighten the rope and restrain the creature. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it’s Huge or larger. On a failed save, the target has the Restrained condition until it unentangles itself. To escape, the target must use its action to make a DC 10 Strength (Athletics) check, escaping on a success.\nA creature within 5 feet of the target can use its action to attempt the same thing. Destroying the rope (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+        "On your turn you may use 15 feet of rope to wrap a creature up. You must use your movement to fully loop around the creature, ending the movement in the place you started. You can then use your bonus action to try and tighten the rope and restrain the creature. The target must make a Dexterity saving throw against a DC equal to 8 + your Proficiency Bonus + your Dexterity modifier. The target succeeds automatically if it’s Huge or larger. On a failed save, the target has the Restrained condition until it unentangles itself. To escape, the target must use its action to make a DC 10 Strength (Athletics) check, escaping on a success.",
+        "A creature within 5 feet of the target can use its action to attempt the same thing. Destroying the rope (AC 10; 5 HP; immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
       ],
       "prerequisite": [
         {
@@ -3781,7 +3804,12 @@
     {
       "name": "Channel the Weather",
       "entries": [
-        "Once per turn when you hit with a weapon attack while outside, you may apply one of the following benefits, depending on the current weather: \nHeat: Your attack deals an additional 1d6 fire damage\nCold: Your attacks deal an additional 1d6 cold damage\nWind: After hitting with a weapon attack you may immediately move 10 feet without provoking opportunity attacks. This movement doesn't cost you any movement. \nRain: Your attacks deal an additional 1d6 acid damage. \nStorm: At the start of the day pick either the Wind or Rain benefit. "
+        "Once per turn when you hit with a weapon attack while outside, you may apply one of the following benefits, depending on the current weather: ",
+        "Heat: Your attack deals an additional 1d6 fire damage",
+        "Cold: Your attacks deal an additional 1d6 cold damage",
+        "Wind: After hitting with a weapon attack you may immediately move 10 feet without provoking opportunity attacks. This movement doesn't cost you any movement. ",
+        "Rain: Your attacks deal an additional 1d6 acid damage. ",
+        "Storm: At the start of the day pick either the Wind or Rain benefit. "
       ],
       "prerequisite": [
         {
@@ -4933,7 +4961,14 @@
     {
       "name": "Original heritage",
       "entries": [
-        "You're still connected to your parental heritage even if you're the chosen of one of the moons or sun. You may pick one of the following traits: \n- Fey heritage: You have advantage on saving throws you make to avoid or end the charmed condition on yourself.\n- Oceanic heritage: You have a swimming speed equal to your walking speed.\n- Hunter heritage: Your walking speed increases by 5 feet. \n- Little folk heritage: You gain proficiency in the Stealth skill. \n- Magical heritage: You know the prestidigitation, druidcraft or thaumaturgy cantrip. \n- Bestial heritage: Your unarmed strikes deal 1d6+your strength modifier in slashing damage. \n- Civilised heritage: You gain proficiency in a tool of your choice and you learn an additional language. "
+        "You're still connected to your parental heritage even if you're the chosen of one of the moons or sun. You may pick one of the following traits: ",
+        "- Fey heritage: You have advantage on saving throws you make to avoid or end the charmed condition on yourself.",
+        "- Oceanic heritage: You have a swimming speed equal to your walking speed.",
+        "- Hunter heritage: Your walking speed increases by 5 feet. ",
+        "- Little folk heritage: You gain proficiency in the Stealth skill. ",
+        "- Magical heritage: You know the prestidigitation, druidcraft or thaumaturgy cantrip. ",
+        "- Bestial heritage: Your unarmed strikes deal 1d6+your strength modifier in slashing damage. ",
+        "- Civilised heritage: You gain proficiency in a tool of your choice and you learn an additional language. "
       ],
       "prerequisite": [
         {
@@ -5635,7 +5670,9 @@
     {
       "name": "Chaos Breath",
       "entries": [
-        "Your Breath Weapon trait is replaced with the following trait:\nWhen you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\nYou can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
+        "Your Breath Weapon trait is replaced with the following trait:\r",
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\r",
+        "You can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
       ],
       "prerequisite": [
         {
@@ -5913,7 +5950,7 @@
             }
           },
           "feature": [
-            "{@optfeature Warrior of Spores|chromaticorenth},\nTier 1 Fey Trait"
+            "{@optfeature Warrior of Spores|chromaticorenth},\r\nTier 1 Fey Trait"
           ]
         }
       ],
@@ -6636,7 +6673,7 @@
             }
           },
           "feature": [
-            "5th Level\nChromatic Dragonborn"
+            "5th Level\r\nChromatic Dragonborn"
           ]
         }
       ],
@@ -6678,7 +6715,8 @@
     {
       "name": "Spell Defyance",
       "entries": [
-        "Your connection to your Orenth has granted you a greater resistance to magic.\nYou gain advantage on saving throws against spells you currently have prepared and resistance against spells you currently have prepared. "
+        "Your connection to your Orenth has granted you a greater resistance to magic.\r",
+        "You gain advantage on saving throws against spells you currently have prepared and resistance against spells you currently have prepared. "
       ],
       "prerequisite": [
         {
@@ -7028,7 +7066,8 @@
     {
       "name": "Sea Hag's Glare",
       "entries": [
-        "As a bonus action you may glare at a creature within 15 feet of you that can see you. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Charisma modifier), on a failure they become frightened of you for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your glare for the next 24 hours.\r\nYou may use this feature a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
+        "As a bonus action you may glare at a creature within 15 feet of you that can see you. They must make a Wisdom saving throw (DC = 8+your proficiency bonus+your Charisma modifier), on a failure they become frightened of you for the next minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to your glare for the next 24 hours.\r",
+        "You may use this feature a number of times equal to your Charisma modifier and regain all uses at the end of a long rest. "
       ],
       "prerequisite": [
         {
@@ -7318,7 +7357,9 @@
     {
       "name": "Momentum Calculation",
       "entries": [
-        "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.\nAny smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+        "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.\r",
+        "Any smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.\r",
+        "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
         {
@@ -7369,7 +7410,8 @@
     {
       "name": "Singularity Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that failed their saving throw has their speed reduced to 0 until the start of your next turn."
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "Each creature that failed their saving throw has their speed reduced to 0 until the start of your next turn."
       ],
       "prerequisite": [
         {
@@ -7502,7 +7544,11 @@
     {
       "name": "Crystal Rest",
       "entries": [
-        "Being prepared is important, definitely when you’re preparing for a day of travel. When you start taking a short rest, the DM chooses an omen to send you. The DM will also notify you of the creature type that may cause this effect.\nPositive:. Something positive is likely to happen the next day.\nNegative: Something negative is likely to happen the next day.\nNeutral: Nothing necessarily positive or negative is likely to happen the next day. \nUncertain: Something is likely to happen the next day, but the outcome of the situation can turn out either positive or negative. "
+        "Being prepared is important, definitely when you’re preparing for a day of travel. When you start taking a short rest, the DM chooses an omen to send you. The DM will also notify you of the creature type that may cause this effect.\r",
+        "Positive:. Something positive is likely to happen the next day.\r",
+        "Negative: Something negative is likely to happen the next day.\r",
+        "Neutral: Nothing necessarily positive or negative is likely to happen the next day. \r",
+        "Uncertain: Something is likely to happen the next day, but the outcome of the situation can turn out either positive or negative. "
       ],
       "prerequisite": [
         {
@@ -7581,7 +7627,8 @@
     {
       "name": "Disorienting Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that fails their saving throw is forced to subtract 1d6 from all their attack rolls and ability checks until the end of their next turn."
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "Each creature that fails their saving throw is forced to subtract 1d6 from all their attack rolls and ability checks until the end of their next turn."
       ],
       "prerequisite": [
         {
@@ -7635,7 +7682,8 @@
     {
       "name": "Unseen Step ",
       "entries": [
-        "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.\nYou may use this ability once per short rest."
+        "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.\r",
+        "You may use this ability once per short rest."
       ],
       "prerequisite": [
         {
@@ -7661,7 +7709,10 @@
     {
       "name": "Euphoria Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:\n1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.\n5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success\nYou may use this ability once per long rest. "
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:\r",
+        "1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.\r",
+        "5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success\r",
+        "You may use this ability once per long rest. "
       ],
       "prerequisite": [
         {
@@ -7672,7 +7723,7 @@
             }
           },
           "feature": [
-            "Jade Dragonborn\nTier 1 Fey Trait"
+            "Jade Dragonborn\r\nTier 1 Fey Trait"
           ]
         }
       ],
@@ -7717,7 +7768,8 @@
     {
       "name": "Beguiling Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.\nYou may use this ability once per long rest."
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.\r",
+        "You may use this ability once per long rest."
       ],
       "prerequisite": [
         {
@@ -7981,7 +8033,8 @@
     {
       "name": "Debilitating Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.\nYou may use this ability once per long rest."
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.\r",
+        "You may use this ability once per long rest."
       ],
       "prerequisite": [
         {
@@ -8007,7 +8060,8 @@
     {
       "name": "Physical Prowess Estimation",
       "entries": [
-        "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.\nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+        "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.\r",
+        "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
         {
@@ -8088,7 +8142,11 @@
     {
       "name": "Can't be outmatched",
       "entries": [
-        "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: \nStrength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. \nArmor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. \nNumber of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. \nYou may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
+        "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: \r",
+        "Strength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. \r",
+        "Armor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. \r",
+        "Number of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. \r",
+        "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
         {
@@ -8140,7 +8198,8 @@
     {
       "name": "Desiccating Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\nEach creature that fails its saving throw is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage."
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "Each creature that fails its saving throw is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage."
       ],
       "prerequisite": [
         {
@@ -8258,7 +8317,7 @@
             }
           },
           "feature": [
-            "5th Level\nGem Dragonborn"
+            "5th Level\r\nGem Dragonborn"
           ]
         }
       ],
@@ -8284,7 +8343,7 @@
             }
           },
           "feature": [
-            "5th Level\nGem Dragonborn"
+            "5th Level\r\nGem Dragonborn"
           ]
         }
       ],
@@ -8325,7 +8384,14 @@
     {
       "name": "Infused Gem Lair",
       "entries": [
-        "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: \n\nAmethyst: You gain a flying speed equal to your walking speed and you can hover.\nSapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.\nEmerald: You constantly sense magic around you, as per the Detect Magic spell.\nTopaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).\nCrystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.\nJade: You can become invisible as an action. Your invisibility ends when you use the Attack or Magic action."
+        "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: \r",
+        "\r",
+        "Amethyst: You gain a flying speed equal to your walking speed and you can hover.\r",
+        "Sapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.\r",
+        "Emerald: You constantly sense magic around you, as per the Detect Magic spell.\r",
+        "Topaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).\r",
+        "Crystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.\r",
+        "Jade: You can become invisible as an action. Your invisibility ends when you use the Attack or Magic action."
       ],
       "prerequisite": [
         {
@@ -8657,7 +8723,9 @@
     {
       "name": "Strangle",
       "entries": [
-        "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.\nCreatures that you cannot grapple or do not need to breathe are unaffected.\nIf a creature has a Breath weapon or similar damage dealing ability, the amount of dice its breath weapon deals goes down by one whenever it starts its turn being strangled. Its breath weapon goes back to normal when it is no longer being strangled. "
+        "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.\r",
+        "Creatures that you cannot grapple or do not need to breathe are unaffected.\r",
+        "If a creature has a Breath weapon or similar damage dealing ability, the amount of dice its breath weapon deals goes down by one whenever it starts its turn being strangled. Its breath weapon goes back to normal when it is no longer being strangled. "
       ],
       "prerequisite": [
         {
@@ -8713,7 +8781,8 @@
     {
       "name": "Cleave",
       "entries": [
-        "Choose a melee weapon you have proficiency with that has the heavy property. \nIf you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
+        "Choose a melee weapon you have proficiency with that has the heavy property. \r",
+        "If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
       ],
       "prerequisite": [
         {
@@ -9728,7 +9797,9 @@
     {
       "name": "Chromatic Snack Summoner",
       "entries": [
-        "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
+        "Once per long rest you can cast Summon Beast at a level equal to your proficiency bonus. Wisdom is your spellcasting ability for this spell. The type of beast it summons depends on the Chromatic type you associate with as seen in the {@table Snack Summon table|oreorenth}",
+        "When you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. ",
+        "You may also cast the spell in the regular way with any spell slots you have yourself."
       ],
       "prerequisite": [
         {
@@ -10903,7 +10974,9 @@
     {
       "name": "Gem Snack Summoner",
       "entries": [
-        "Once per long rest you can cast {@spell Summon Beast} at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the {@table Snack Summon table|oreorenth}\nWhen you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. \nYou may also cast the spell in the regular way with any spell slots you have yourself."
+        "Once per long rest you can cast {@spell Summon Beast} at a level equal to your proficiency bonus. Intelligence is your spellcasting ability for this spell. The type of beast it summons depends on the Gem type you associate with as seen in the {@table Snack Summon table|oreorenth}",
+        "When you cast the spell in this way it requires no components. If you kill the beast you regain a number of hit points equal to 5 times your proficiency bonus. Once you attack the beast it is no longer an ally and will fight back, but won’t run. ",
+        "You may also cast the spell in the regular way with any spell slots you have yourself."
       ],
       "prerequisite": [
         {
@@ -11269,7 +11342,9 @@
     {
       "name": "Nick",
       "entries": [
-        "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. \nIf you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. \nYou can still make this extra attack only once per turn. "
+        "Choose a weapon that you have proficiency with that has the Light property, your Unarmed Strike if you have the Martial Arts feature or a Double Bladed Scimitar if you have the Revenant Blade Feat. When you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. ",
+        "If you have the Martial Arts feature you can instead make an unarmed strike as part of the action. If you use the Flurry of Blows feature you can spend 1 ki to make an additional unarmed strike as a bonus action. ",
+        "You can still make this extra attack only once per turn. "
       ],
       "prerequisite": [
         {
@@ -14485,7 +14560,10 @@
     {
       "name": "Handfasting",
       "entries": [
-        "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: \nYour maximum hp increased by your partners level. \nYou gain advantage on Wisdom saving throws. \nYou can add 1d4 to any Wisdom, Intelligence or Charisma ability check made while the other person is within 10 feet of you. "
+        "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: \r",
+        "Your maximum hp increased by your partners level. \r",
+        "You gain advantage on Wisdom saving throws. \r",
+        "You can add 1d4 to any Wisdom, Intelligence or Charisma ability check made while the other person is within 10 feet of you. "
       ],
       "prerequisite": [
         {
@@ -15396,7 +15474,8 @@
     {
       "name": "Kobold Craftiness",
       "entries": [
-        "Over the course of a short rest you may gather materials to craft an item worth no more 2 gold pieces. You craft an item that can emulate the effects of a tier 1 and 2 Orenth trait related to the area you're resting in. Only you can use the item and it breaks after 24 hours or when you make a new one. You can also create an attachment to something you already have on you, such as a weapon or armor. \nYou can only pick an Orenth trait that can be used once per long rest, once per long rest. Whenever you pick a trait that can be used multiple times every long rest you may use it once. "
+        "Over the course of a short rest you may gather materials to craft an item worth no more 2 gold pieces. You craft an item that can emulate the effects of a tier 1 and 2 Orenth trait related to the area you're resting in. Only you can use the item and it breaks after 24 hours or when you make a new one. You can also create an attachment to something you already have on you, such as a weapon or armor. \r",
+        "You can only pick an Orenth trait that can be used once per long rest, once per long rest. Whenever you pick a trait that can be used multiple times every long rest you may use it once. "
       ],
       "prerequisite": [
         {

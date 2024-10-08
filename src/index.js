@@ -92,7 +92,7 @@ function convert(result, filename) {
   var optFeature = {};
 
   optFeature.name = result.Name;
-  optFeature.entries = [result.Description];
+  optFeature.entries = [...result.Description.split("\n")];
 
   var match = filename.match(regex);
 
