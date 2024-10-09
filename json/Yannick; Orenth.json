@@ -5670,8 +5670,8 @@
     {
       "name": "Chaos Breath",
       "entries": [
-        "Your Breath Weapon trait is replaced with the following trait:\r",
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.\r",
+        "Your Breath Weapon trait is replaced with the following trait:",
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity saving throw (DC = 8+ your Constitution modifier + your proficiency bonus). On a failed save they take 1d4 fire, lightning, poison, acid and cold damage, or half as much on a successful save. This damage increases to 1d6 at 5th level, 1d8 at 11th level and 1d12 at 17th level.",
         "You can use your Breath Weapon a number of times equal to your proficiency bonus and regain all expended uses when you finish a long rest."
       ],
       "prerequisite": [
@@ -5950,7 +5950,7 @@
             }
           },
           "feature": [
-            "{@optfeature Warrior of Spores|chromaticorenth},\r\nTier 1 Fey Trait"
+            "{@optfeature Warrior of Spores|chromaticorenth},\nTier 1 Fey Trait"
           ]
         }
       ],
@@ -6673,7 +6673,7 @@
             }
           },
           "feature": [
-            "5th Level\r\nChromatic Dragonborn"
+            "5th Level\nChromatic Dragonborn"
           ]
         }
       ],
@@ -6715,7 +6715,7 @@
     {
       "name": "Spell Defyance",
       "entries": [
-        "Your connection to your Orenth has granted you a greater resistance to magic.\r",
+        "Your connection to your Orenth has granted you a greater resistance to magic.",
         "You gain advantage on saving throws against spells you currently have prepared and resistance against spells you currently have prepared. "
       ],
       "prerequisite": [
@@ -7357,8 +7357,8 @@
     {
       "name": "Momentum Calculation",
       "entries": [
-        "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.\r",
-        "Any smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.\r",
+        "After hitting with a weapon attack you may use your reaction to make an Intelligence (Arcana) check against the AC of the creature you hit. On a success your weapon automatically deals max damage and you expend a use of this feature. On a failure nothing happens.",
+        "Any smites, sneak attack bonuses, spells or other damage increasing effects are not maximised. But, if for example you have a magical weapon that deals an additional 1d6 fire damage, this would be maximised.",
         "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
@@ -7410,7 +7410,7 @@
     {
       "name": "Singularity Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:",
         "Each creature that failed their saving throw has their speed reduced to 0 until the start of your next turn."
       ],
       "prerequisite": [
@@ -7544,11 +7544,35 @@
     {
       "name": "Crystal Rest",
       "entries": [
-        "Being prepared is important, definitely when you’re preparing for a day of travel. When you start taking a short rest, the DM chooses an omen to send you. The DM will also notify you of the creature type that may cause this effect.\r",
-        "Positive:. Something positive is likely to happen the next day.\r",
-        "Negative: Something negative is likely to happen the next day.\r",
-        "Neutral: Nothing necessarily positive or negative is likely to happen the next day. \r",
-        "Uncertain: Something is likely to happen the next day, but the outcome of the situation can turn out either positive or negative. "
+        "Being prepared is important, definitely when you’re preparing for a day of travel. When you start taking a short rest, the DM chooses an omen to send you. The DM will also notify you of the creature type that may cause this effect.",
+        {
+          "type": "entries",
+          "name": "Positive",
+          "entries": [
+            " Something positive is likely to happen the next day."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Negative",
+          "entries": [
+            " Something negative is likely to happen the next day."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Neutral",
+          "entries": [
+            " Nothing necessarily positive or negative is likely to happen the next day. "
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Uncertain",
+          "entries": [
+            " Something is likely to happen the next day, but the outcome of the situation can turn out either positive or negative. "
+          ]
+        }
       ],
       "prerequisite": [
         {
@@ -7627,7 +7651,7 @@
     {
       "name": "Disorienting Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:",
         "Each creature that fails their saving throw is forced to subtract 1d6 from all their attack rolls and ability checks until the end of their next turn."
       ],
       "prerequisite": [
@@ -7682,7 +7706,7 @@
     {
       "name": "Unseen Step ",
       "entries": [
-        "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.\r",
+        "Your connection to Emerald dragons has led you to be good at being unheard and unseen. Whenever you take the Hide Action and successfully hide, you can choose to become invisible as a part of that action instead. While invisible you also do not make any sound. Your invisibility ends after one minute or if you take the Magic or Attack action.",
         "You may use this ability once per short rest."
       ],
       "prerequisite": [
@@ -7709,9 +7733,9 @@
     {
       "name": "Euphoria Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:\r",
-        "1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.\r",
-        "5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success\r",
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or for 1 minute, the target can’t take reactions and must roll a d6at the start of each of its turns to determine its behavior during the turn:",
+        "1–4: The target takes no action or bonus action and uses all of its movement to move in a random direction.",
+        "5–6: The target doesn’t move, and the only thing it can do on its turn is repeat the saving throw, ending the effect on itself on a success",
         "You may use this ability once per long rest. "
       ],
       "prerequisite": [
@@ -7723,7 +7747,7 @@
             }
           },
           "feature": [
-            "Jade Dragonborn\r\nTier 1 Fey Trait"
+            "Jade Dragonborn\nTier 1 Fey Trait"
           ]
         }
       ],
@@ -7768,7 +7792,7 @@
     {
       "name": "Beguiling Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.\r",
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Wisdom saving throw (DC=8+your Constitution modifier + your prof. Bonus), or they are charmed by you for one minute. While charmed in this way they cannot lie to you. Undead cannot be immune to this charm.",
         "You may use this ability once per long rest."
       ],
       "prerequisite": [
@@ -8033,7 +8057,7 @@
     {
       "name": "Debilitating Breath",
       "entries": [
-        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.\r",
+        "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in a 30-foot cone. Each creature in that area must make a Constitution saving throw (DC=8+your Constitution modifier + your prof. Bonus) or be incapacitated until the end of its next turn.",
         "You may use this ability once per long rest."
       ],
       "prerequisite": [
@@ -8060,7 +8084,7 @@
     {
       "name": "Physical Prowess Estimation",
       "entries": [
-        "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.\r",
+        "As a bonus action you can observe the physiology of a creature to get an estimate of their physical state. Make an Intelligence (Medicine) check against their Dexterity score. On a success you learn which of their physical ability scores is the highest and which is the lowest, and whether they have proficiency in any physical saving throws.",
         "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
@@ -8142,10 +8166,10 @@
     {
       "name": "Can't be outmatched",
       "entries": [
-        "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: \r",
-        "Strength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. \r",
-        "Armor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. \r",
-        "Number of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. \r",
+        "Whenever you are fighting a creature you may use your bonus action to measure your own physical ability against theirs. Choose one of the following attributes: ",
+        "Strength: If the creature's strength score is higher than yours, your Strength modifier increases by 1 for the next minute. If theirs is lower nothing happens. ",
+        "Armor Class: If the creature's Armor Class is higher than yours, your armor class increases by 2 for the next minute. If theirs is lower nothing happens. ",
+        "Number of hit dice: If you have fewer total hit dice than the creature you may immediately roll one of your hit dice and add your Constitution modifier, regaining this many hit points. You don't spend any hit dice when using this ability. If your total hit dice are lower than theirs nothing happens. ",
         "You may use this ability a number of times equal to your Intelligence modifier and regain all uses after a long rest."
       ],
       "prerequisite": [
@@ -8198,7 +8222,7 @@
     {
       "name": "Desiccating Breath",
       "entries": [
-        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:\r",
+        "You gain an additional use of your breath weapon. Additionally once per Long Rest you may apply the following effect to your breath in addition to the damage:",
         "Each creature that fails its saving throw is weakened until the end of its next turn. A weakened creature has disadvantage on Strength-based ability checks and Strength saving throws, and the creature's weapon attacks that rely on Strength deal half damage."
       ],
       "prerequisite": [
@@ -8317,7 +8341,7 @@
             }
           },
           "feature": [
-            "5th Level\r\nGem Dragonborn"
+            "5th Level\nGem Dragonborn"
           ]
         }
       ],
@@ -8343,7 +8367,7 @@
             }
           },
           "feature": [
-            "5th Level\r\nGem Dragonborn"
+            "5th Level\nGem Dragonborn"
           ]
         }
       ],
@@ -8384,13 +8408,13 @@
     {
       "name": "Infused Gem Lair",
       "entries": [
-        "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: \r",
-        "\r",
-        "Amethyst: You gain a flying speed equal to your walking speed and you can hover.\r",
-        "Sapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.\r",
-        "Emerald: You constantly sense magic around you, as per the Detect Magic spell.\r",
-        "Topaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).\r",
-        "Crystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.\r",
+        "As a gem kobold you gain certain advantages while in Gem Dragon lairs or areas of high Orenth influence. Depending on the gem type you gain one of the following effects: ",
+        "",
+        "Amethyst: You gain a flying speed equal to your walking speed and you can hover.",
+        "Sapphire: You gain a burrow speed equal to your walking speed. This burrow speed allows you to burrow through solid rock.",
+        "Emerald: You constantly sense magic around you, as per the Detect Magic spell.",
+        "Topaz: You start every turn with a number of temporary hit points equal to your Intelligence modifier (minimum of 1).",
+        "Crystal: You gain a portent die whenever you roll initiative. You lose this die when combat ends.",
         "Jade: You can become invisible as an action. Your invisibility ends when you use the Attack or Magic action."
       ],
       "prerequisite": [
@@ -8723,8 +8747,8 @@
     {
       "name": "Strangle",
       "entries": [
-        "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.\r",
-        "Creatures that you cannot grapple or do not need to breathe are unaffected.\r",
+        "Choose a weapon with a string or chain (Flail, shortbow, sling, whip, longbow) or your Unarmed Strike. While wielding this weapon, you may attempt to grapple a creature (no more than one size larger than you) by looping the chain or rope of your weapon around its neck. While grappled in this way, the creature cannot speak, cannot breathe, and has disadvantage on attack rolls against you. If you surprised the creature with this grapple, it cannot hold its breath and immediately begins suffocating.",
+        "Creatures that you cannot grapple or do not need to breathe are unaffected.",
         "If a creature has a Breath weapon or similar damage dealing ability, the amount of dice its breath weapon deals goes down by one whenever it starts its turn being strangled. Its breath weapon goes back to normal when it is no longer being strangled. "
       ],
       "prerequisite": [
@@ -8781,7 +8805,7 @@
     {
       "name": "Cleave",
       "entries": [
-        "Choose a melee weapon you have proficiency with that has the heavy property. \r",
+        "Choose a melee weapon you have proficiency with that has the heavy property. ",
         "If you hit a creature with a melee attack using this weapon, you can make an attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon’s damage, but don’t add your ability modifier to that damage, unless that modifier is negative. You can make this extra attack only once per turn."
       ],
       "prerequisite": [
@@ -8985,7 +9009,13 @@
     {
       "name": "Weapon Training",
       "entries": [
-        "As a downtime activity, you can attempt to master more weapons. With this Orenth trait you can gain access to more Ingens Orenth traits with the Weapon Mastery subtype and the Exclusive prerequisite. The way to train a new mastery follows the Training Downtime Activity from Xanathar's guide, but the time it takes to get this new Orenth trait is a number of workweeks equal to (10-minus your choice of your Constitution, Strength or Dexterity modifier)*10. You must already have an Exclusive Orenth Trait with the Weapon Mastery subtype of this tier in order to get access to a new one. Once you have gained a new weapon mastery you may only change it to a different Exclusive Weapon Mastery Orenth trait whenever you may change Orenth traits and you must always have a second Exclusive Weapon Mastery Orenth trait of this tier. "
+        {
+          "type": "entries",
+          "name": "As a downtime activity, you can attempt to master more weapons. With this Orenth trait you can gain access to more Ingens Orenth traits with the Weapon Mastery subtype and the Exclusive prerequisite. The way to train a new mastery follows the Training Downtime Activity from Xanathar's guide, but the time it takes to get this new Orenth trait is a number of workweeks equal to (10-minus your choice of your Constitution, Strength or Dexterity modifier)",
+          "entries": [
+            "10. You must already have an Exclusive Orenth Trait with the Weapon Mastery subtype of this tier in order to get access to a new one. Once you have gained a new weapon mastery you may only change it to a different Exclusive Weapon Mastery Orenth trait whenever you may change Orenth traits and you must always have a second Exclusive Weapon Mastery Orenth trait of this tier. "
+          ]
+        }
       ],
       "prerequisite": [
         {
@@ -14560,9 +14590,9 @@
     {
       "name": "Handfasting",
       "entries": [
-        "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: \r",
-        "Your maximum hp increased by your partners level. \r",
-        "You gain advantage on Wisdom saving throws. \r",
+        "You bind yourself to another person. This other person must also have this trait. Whenever you finish a short rest together you may pick one of the following benefits: ",
+        "Your maximum hp increased by your partners level. ",
+        "You gain advantage on Wisdom saving throws. ",
         "You can add 1d4 to any Wisdom, Intelligence or Charisma ability check made while the other person is within 10 feet of you. "
       ],
       "prerequisite": [
@@ -15314,32 +15344,6 @@
       "source": "FeyOrenth"
     },
     {
-      "name": "Breath of Steam and Storm",
-      "entries": [
-        "Once per turn when you deal fire or lightning damage to a creature, you may also deal additional damage of the other type equal to your proficiency bonus. "
-      ],
-      "prerequisite": [
-        {
-          "level": {
-            "level": 2,
-            "class": {
-              "name": "Tier"
-            }
-          },
-          "feature": [
-            "None"
-          ]
-        }
-      ],
-      "featureType": [
-        "ORE",
-        "Oceanic",
-        "Spellcasting",
-        "Offensive"
-      ],
-      "source": "IngensOrenth"
-    },
-    {
       "name": "Power from the Shield",
       "entries": [
         "At the start of your turn you gain temporary hit points equal to your AC-10-your Dexterity modifier. You may get these temporary hit points a number of times equal to your Constitution modifier every long rest. "
@@ -15474,7 +15478,7 @@
     {
       "name": "Kobold Craftiness",
       "entries": [
-        "Over the course of a short rest you may gather materials to craft an item worth no more 2 gold pieces. You craft an item that can emulate the effects of a tier 1 and 2 Orenth trait related to the area you're resting in. Only you can use the item and it breaks after 24 hours or when you make a new one. You can also create an attachment to something you already have on you, such as a weapon or armor. \r",
+        "Over the course of a short rest you may gather materials to craft an item worth no more 2 gold pieces. You craft an item that can emulate the effects of a tier 1 and 2 Orenth trait related to the area you're resting in. Only you can use the item and it breaks after 24 hours or when you make a new one. You can also create an attachment to something you already have on you, such as a weapon or armor. ",
         "You can only pick an Orenth trait that can be used once per long rest, once per long rest. Whenever you pick a trait that can be used multiple times every long rest you may use it once. "
       ],
       "prerequisite": [

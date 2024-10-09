@@ -78,7 +78,7 @@ function featureType(types, type) {
 }
 
 function addTagIfPresent(result) {
-  const tags = [];
+  var tags = [];
   for (const property in result) {
     if (result[property] === "TRUE") {
       tags.push(property);
@@ -88,11 +88,37 @@ function addTagIfPresent(result) {
   return tags;
 }
 
+function createEntry(name, description) {
+  return {
+    type: "entries",
+    name,
+    entries: [description],
+  };
+}
+
+function parseDescription(description) {
+  var entries = [];
+
+  var descriptionArray = description.split("\n");
+
+  for (var item of descriptionArray) {
+    if (item.includes("*")) {
+      var itemArray = item.split("*", 2);
+
+      entries.push(createEntry(itemArray[0], itemArray[1]));
+    } else {
+      entries.push(item);
+    }
+  }
+
+  return entries;
+}
+
 function convert(result, filename) {
   var optFeature = {};
 
   optFeature.name = result.Name;
-  optFeature.entries = [...result.Description.split("\n")];
+  optFeature.entries = parseDescription(result.Description);
 
   var match = filename.match(regex);
 
