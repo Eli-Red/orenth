@@ -96,6 +96,14 @@ function createEntry(name, description) {
   };
 }
 
+function createQuote(description) {
+  return {
+    type: "quote",
+    skipMarks: true,
+    entries: [description],
+  };
+}
+
 function parseDescription(description) {
   var entries = [];
 
@@ -106,6 +114,10 @@ function parseDescription(description) {
       var itemArray = item.split("*", 2);
 
       entries.push(createEntry(itemArray[0], itemArray[1]));
+    } else if (item.endsWith("_")) {
+      var trimmed = item.slice(0, -1);
+
+      entries.push(createQuote(trimmed));
     } else {
       entries.push(item);
     }
