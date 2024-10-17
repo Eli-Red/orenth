@@ -1,6 +1,6 @@
 const csv = require("csv-parser");
 const fs = require("fs");
-const table = require("../resource/tables.json");
+const table = require("../resource/tables/tables.json");
 const orenthTypes = [
   // Orenth Types
   { abr: "Gem", color: "d902a0" },
@@ -163,14 +163,14 @@ function convert(result, filename) {
 
 function readFiles() {
   return new Promise((resolve, reject) => {
-    var files = fs.readdirSync("resource/");
+    var files = fs.readdirSync("resource/orenth/");
 
     const results = [];
 
     let processedCount = 0;
 
     for (const file of files) {
-      fs.createReadStream(`resource/${file}`)
+      fs.createReadStream(`resource/orenth/${file}`)
         .pipe(csv())
         .on("data", (data) => {
           if (data.Name) {
@@ -211,6 +211,16 @@ function createSources() {
   return sources;
 }
 
+function compare(a, b) {
+  if (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+}
+
 function writeToFile(results) {
   var optionalFeatureTypes = { ORE: "Orenth" };
   for (const type of allFeatureTypes) {
@@ -218,6 +228,8 @@ function writeToFile(results) {
   }
 
   var sources = createSources();
+
+  results.sort(compare);
 
   var homebrew = {
     _meta: {
